@@ -22,3 +22,6 @@ require COREPATH.'bootstrap.php';
 
 // Initialize the framework with the config file.
 \Fuel::init('config.php');
+
+// Require the file that initialize constants of the site
+require APPPATH.'/config/constant.php';
