@@ -3,7 +3,7 @@
  * 404ページ
  */
 
-class Controller_404 extends Controller
+class Controller_404 extends Controller_App
 {
 
 	/**
@@ -15,7 +15,7 @@ class Controller_404 extends Controller
 	public function action_index()
 	{
 		$data = array();
-		return Response::forge(View::forge('404', $data, false));
+		return Response::forge(View::forge($this->template . '/404', $data, false));
 	}
 	
 }

@@ -3,7 +3,7 @@
  * 共通パーツ - ヘッダー
  */
 
-class Controller_Common_Header extends Controller
+class Controller_Common_Header extends Controller_App
 {
 
 	/*
@@ -13,7 +13,7 @@ class Controller_Common_Header extends Controller
 	public function action_index()
 	{
 		$data = array();
-		return Response::forge(View::forge('common/header', $data, false));
+		return Response::forge(View::forge($this->template . '/common/header', $data, false));
 	}
 	
 }

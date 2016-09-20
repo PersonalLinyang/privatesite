@@ -5,6 +5,6 @@
 	<title>お探しのページは存在しません</title>
 </head>
 <body>
-	404
+	SP404
 </body>
 </html>

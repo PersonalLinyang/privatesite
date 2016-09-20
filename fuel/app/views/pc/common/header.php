@@ -1,3 +1,3 @@
 <header class="header-common">
-	Header
+	PCHeader
 </header>

@@ -7,5 +7,6 @@
 </head>
 <body>
 	<?php echo $header; ?>
+	SPサイト
 </body>
 </html>
