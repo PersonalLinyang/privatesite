@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>ホームページ</title>
-	<link rel="stylesheet" href="assets/css/common.css" type='text/css'>
+	<?php echo Asset::css('common.css'); ?>
 </head>
 <body>
 	<?php echo $header; ?>
