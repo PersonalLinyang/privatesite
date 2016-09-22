@@ -20,11 +20,13 @@ class Controller_Admin_Login extends Controller_App
 			$login_user = Model_User::Login($_POST['login_id'], $_POST['login_pw']);
 			if($login_user) {
 				$_SESSION['login_user_id'] = $login_user->user_id;
+				$_SESSION['login_user_name'] = $login_user->user_name;
 				$_SESSION['login_user_type'] = $login_user->user_type;
 				header( 'Location: http://' . $_SERVER['HTTP_HOST'] . '/admin/index.php' );
 				exit;
 			} else {
 				unset($_SESSION['login_user_id']);
+				unset($_SESSION['login_user_name']);
 				unset($_SESSION['login_user_type']);
 				$data['login_id'] = $_POST['login_id'];
 				$data['error_message'] = 'ログインIDかパスワードが間違っています';
