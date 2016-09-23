@@ -2,11 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>エラーページ-管理システム</title>
+	<title>管理システム</title>
 </head>
 <body>
 	<div>
-		エラーページ
+		エラーページ:<?php echo $error_message; ?><a href="/admin/index.php">ホームページへ戻る</a>
 	<div>
 </body>
 </html>
