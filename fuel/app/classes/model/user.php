@@ -8,13 +8,14 @@ class Model_User extends Model
 	public $login_pw;
 	public $user_name;
 	public $user_type;
+	public $agent_id;
 	
 	/*
 	 * ユーザーログイン
 	 */
 	public static function Login($login_id, $login_pw) {
 		//ログインユーザー検索
-		$sql = "SELECT * FROM t_user WHERE login_id =:login_id AND login_pw=:login_pw";
+		$sql = "SELECT * FROM t_user WHERE login_id = :login_id AND login_pw = :login_pw";
 		$query = DB::query($sql);
 		$query->param('login_id', $login_id);
 		$query->param('login_pw', md5(sha1($login_pw)));
@@ -28,6 +29,7 @@ class Model_User extends Model
 			$user->login_pw = $result[0]["login_pw"];
 			$user->user_name = $result[0]["user_name"];
 			$user->user_type = $result[0]["user_type"];
+			$user->agent_id = $result[0]["agent_id"];
 			
 			return $user;
 		} else {
