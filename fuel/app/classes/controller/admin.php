@@ -1,17 +1,44 @@
 <?php
 /* 
- * ホームページ
+ * 管理システム
  */
 
-class Controller_Admin_Login extends Controller_App
+class Controller_Admin extends Controller_App
 {
 
 	/**
-	 *
+	 * 
+	 * ホームページ
+	 * 
 	 * @access  public
 	 * @return  Response
 	 */
 	public function action_index($param = null)
+	{
+		session_start();
+		$data = array();
+		
+		//未ログインとときログインページに遷移
+		if(!isset($_SESSION['login_user_id'])){
+			header( 'Location: http://' . $_SERVER['HTTP_HOST'] . '/admin/login.php' );
+			exit;
+		}
+		
+		//共通ヘッダー取得
+		$data['header'] = Request::forge('admin/common/header')->execute()->response();
+		
+		//View呼び出す
+		return Response::forge(View::forge($this->template . '/admin/index', $data, false));
+	}
+
+	/**
+	 * 
+	 * ログインページ
+	 * 
+	 * @access  public
+	 * @return  Response
+	 */
+	public function action_login($param = null)
 	{
 		session_start();
 		$data = array();
@@ -38,7 +65,7 @@ class Controller_Admin_Login extends Controller_App
 					}
 				}
 				
-				header( 'Location: http://' . $_SERVER['HTTP_HOST'] . '/admin/index.php' );
+				header( 'Location: http://' . $_SERVER['HTTP_HOST'] . '/admin/' );
 				exit;
 			} else {
 				unset($_SESSION['login_user_id']);

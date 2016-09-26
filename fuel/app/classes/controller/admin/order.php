@@ -1,13 +1,15 @@
 <?php
 /* 
- * 注文ページ
+ * 管理システム注文機能
  */
 
-class Controller_Admin_Order_Index extends Controller_App
+class Controller_Admin_Order extends Controller_App
 {
 
 	/**
-	 *
+	 * 
+	 * 注文ページ
+	 * 
 	 * @access  public
 	 * @return  Response
 	 */

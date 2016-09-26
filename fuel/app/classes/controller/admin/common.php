@@ -1,16 +1,19 @@
 <?php
 /* 
- * 共通パーツ - ヘッダー
+ * 管理システム共通パーツ
  */
 
-class Controller_Admin_Common_Header extends Controller_App
+class Controller_Admin_Common extends Controller_App
 {
 
-	/*
+	/**
+	 * 
+	 * 共通ヘッダ
+	 * 
 	 * @access  public
 	 * @return  Response
 	 */
-	public function action_index()
+	public function action_header($param = null)
 	{
 		$data = array();
 		

@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div>
-		エラーページ:<?php echo $error_message; ?><a href="/admin/index.php">ホームページへ戻る</a>
+		エラーページ:<?php echo $error_message; ?><a href="/admin/">ホームページへ戻る</a>
 	<div>
 </body>
 </html>
