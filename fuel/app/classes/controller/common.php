@@ -1,16 +1,17 @@
 <?php
 /* 
- * 共通パーツ - ヘッダー
+ * ホームページ
  */
 
-class Controller_Common_Header extends Controller_App
+class Controller_Common extends Controller_App
 {
 
-	/*
+	/**
+	 *
 	 * @access  public
 	 * @return  Response
 	 */
-	public function action_index()
+	public function action_header($param = null)
 	{
 		$data = array();
 		return Response::forge(View::forge($this->template . '/common/header', $data, false));

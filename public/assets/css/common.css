@@ -1,3 +1,156 @@
-.header-common {
-	font-weight:bold;
+.body-common {
+	background: #000000 url(/assets/img/pc/system/body-bg.jpg) repeat;
+}
+
+.header-area {
+	width: 1000px;
+	margin: auto;
+}
+
+.header-log	{
+	width: 1000px;
+	height: 179px;
+	background:	url(/assets/img/pc/system/header-log.jpg);
+}
+
+.header-navi {
+	font-family: "ＭＳ Ｐ明朝";
+	margin-top: 5px;
+}
+.header-navi ul {
+	font-size: 0px;
+	margin-left: 2px;
+	padding: 0px;
+}
+.header-navi ul li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-top: 5px;
+	width: 173px;
+	height:	40px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	background: #FFCC66;
+	border-radius: 10px;
+	border-style: outset;
+	border-width: 6px;
+	border-top-color: #FFFFCC;
+	border-bottom-color: #FF9900;
+	border-left-color: #FFFFCC;
+	border-right-color: #FF9900;
+}
+.header-navi ul li a.main-navi-link {
+	color: #713E00;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+}
+.header-navi ul li.active {
+	font-size: 20px;
+	background: #CC3300;
+	border-style: inset;
+	border-color: #FFFF00;
+}
+.header-navi ul li.active a.main-navi-link {
+	color: #FFFF00;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+}
+.header-navi ul li.active-sub {
+	font-size: 20px;
+	height:	46px;
+	background: #CC3300;
+	border-style: inset;
+	border-color: #FFFF00;
+	border-bottom-width: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.header-navi ul li.active-sub a.main-navi-link {
+	color: #FFFF00;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+}
+
+.header-sub-navi {
+	margin-left: -6px;
+	margin-right: -6px;
+	background-color: #CC3300;
+	padding-bottom: 12px;
+	border-style: inset;
+	border-color: #FFFF00;
+	border-width: 6px;
+	border-top-width: 0px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: none;
+}
+.header-sub-navi ul li {
+	width: 130px;
+	margin-top: 3px;
+	margin-left: 0px;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	border-width: 4px;
+}
+.header-sub-navi ul li a.sub-navi-link {
+	color: #713E00;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+}
+.header-sub-navi ul li.active {
+	font-size: 18px;
+}
+.header-sub-navi ul li.active a.sub-navi-link {
+	color: #FFFF00;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+}
+
+.body-area {
+	width: 1000px;
+	margin: auto;
+}
+
+.main-area {
+	width:750px;
+	float: left;
+}
+
+.main-content {
+	background: #F4D59F url(/assets/img/pc/system/bg-log.png) repeat;
+	width: 693px;
+	margin-left: 9px;
+	margin-top: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.sidebar-area {
+	width: 250px;
+	float: left;
+}
+
+.sidebar-content {
+	background-color: yellow;
+	width: 195px;
+	margin-top: 10px;
+	margin-left: 7px;
+	border-radius: 10px;
+	padding: 20px;
 }
