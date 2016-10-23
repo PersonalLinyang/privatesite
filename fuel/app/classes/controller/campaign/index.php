@@ -1,6 +1,6 @@
 ﻿<?php
 /* 
- * 注文ページ
+ * キャンペーンページ
  */
 
 class Controller_Campaign_Index extends Controller_App

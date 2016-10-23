@@ -1,9 +1,9 @@
 ﻿<?php
 /* 
- * お客様の声ページ
+ * ちょい飲みページ
  */
 
-class Controller_Review_Index extends Controller_App
+class Controller_Menu_Choinomi extends Controller_App
 {
 
 	/**
@@ -20,7 +20,7 @@ class Controller_Review_Index extends Controller_App
 		$data['header'] = Request::forge('common/header')->execute()->response();
 		
 		//View呼び出す
-		return Response::forge(View::forge($this->template . '/review/index', $data, false));
+		return Response::forge(View::forge($this->template . '/menu/choinomi', $data, false));
 	}
 	
 }

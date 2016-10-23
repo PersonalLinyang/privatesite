@@ -1,6 +1,6 @@
 ﻿<?php
 /* 
- * 注文ページ
+ * メニューページ
  */
 
 class Controller_Menu_Index extends Controller_App

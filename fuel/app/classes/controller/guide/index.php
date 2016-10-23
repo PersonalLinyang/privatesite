@@ -1,6 +1,6 @@
 ﻿<?php
 /* 
- * 注文ページ
+ * ガイドページ
  */
 
 class Controller_Guide_Index extends Controller_App

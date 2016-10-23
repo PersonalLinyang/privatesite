@@ -1,6 +1,6 @@
 <?php
 /* 
- * ホームページ
+ * 通常共通パーツ
  */
 
 class Controller_Common extends Controller_App

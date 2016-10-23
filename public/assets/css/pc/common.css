@@ -1,21 +1,25 @@
+/* 共通bodyタグ */
 .body-common {
 	background: #000000 url(/assets/img/pc/system/body-bg.jpg) repeat;
 }
 
+/* 共通ヘッダ区域 */
 .header-area {
 	width: 1000px;
 	margin: auto;
 }
 
+/* 共通ヘッダロゴ部分 */
 .header-log	{
 	width: 1000px;
 	height: 179px;
 	background:	url(/assets/img/pc/system/header-log.jpg);
 }
 
+/* 共通ヘッダサイトナビ部分 メインナビ */
 .header-navi {
 	font-family: "ＭＳ Ｐ明朝";
-	margin-top: 5px;
+	margin-top: 10px;
 }
 .header-navi ul {
 	font-size: 0px;
@@ -82,6 +86,7 @@
 	text-decoration: none;
 }
 
+/* 共通ヘッダサイトナビ部分 サブナビ */
 .header-sub-navi {
 	margin-left: -6px;
 	margin-right: -6px;
@@ -122,33 +127,55 @@
 	text-decoration: none;
 }
 
+/* 通常中央区域 */
 .body-area {
 	width: 1000px;
 	margin: auto;
 }
 
+/* 通常本文区域 */
 .main-area {
-	width:750px;
+	width:700px;
+	margin-top: 10px;
 	float: left;
 }
 
-.main-content {
-	background: #F4D59F url(/assets/img/pc/system/bg-log.png) repeat;
-	width: 693px;
+/* 通常本文区域 画像タイプ */
+.main-content-image {
+	background-color: #FFFF00;
+	width: 670px;
 	margin-left: 9px;
 	margin-top: 10px;
-	padding: 20px;
+	border-radius: 10px;
+	border-style: inset;
+	border-color: #FFFF00;
+	border-width: 8px;
+}
+.main-content-image img {
+	margin-bottom: -3px;
+	border-radius: 5px;
+}
+
+/* 通常本文区域 文章タイプ */
+.main-content-article {
+	background: #F4D59F url(/assets/img/pc/system/bg-log.png) repeat;
+	width: 686px;
+	margin-left: 9px;
+	margin-top: 10px;
 	border-radius: 10px;
 }
 
+/* 通常サイドバー区域 */
 .sidebar-area {
-	width: 250px;
+	width: 300px;
+	margin-top: 10px;
 	float: left;
 }
 
+/* 通常サイドバー内容部分 */
 .sidebar-content {
 	background-color: yellow;
-	width: 195px;
+	width: 245px;
 	margin-top: 10px;
 	margin-left: 7px;
 	border-radius: 10px;
