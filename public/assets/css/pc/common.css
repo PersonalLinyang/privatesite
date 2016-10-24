@@ -158,11 +158,17 @@
 
 /* 通常本文区域 文章タイプ */
 .main-content-article {
+	color: #713E00;
 	background: #F4D59F url(/assets/img/pc/system/bg-log.png) repeat;
-	width: 686px;
+	width: 646px;
 	margin-left: 9px;
 	margin-top: 10px;
 	border-radius: 10px;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+.main-content-article h2 {
+	text-align: center;
 }
 
 /* 通常サイドバー区域 */
