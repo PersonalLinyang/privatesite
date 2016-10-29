@@ -28,7 +28,7 @@
 					</tr>
 					<tr>
 						<th>住所</th>
-						<td>〒231-0057<br/>神奈川県横浜市中区曙町3丁目44-2</td>
+						<td>〒231-0057<br/>神奈川県横浜市中区曙町3丁目44-2<br/><a id="map-link" href="#map">地図で確認</a></td>
 					</tr>
 					<tr>
 						<th>アクセス</th>
@@ -48,7 +48,7 @@
 						<td></td>
 					</tr>
 				</table>
-				<div id="map" style="width:600px;height: 500px;margin: auto;"></div>
+				<div id="map"></div>
 			</div>
 		</div>
 		<div class="sidebar-area">

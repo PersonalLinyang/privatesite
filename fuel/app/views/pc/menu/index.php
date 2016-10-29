@@ -12,7 +12,7 @@
 	<div class="body-area">
 		<div class="main-area">
 			<div class="main-content-image">
-				<a href="/menu/noodel_rice/">
+				<a href="/menu/noodle_rice/">
 					<?php echo Asset::img('pc/menu/banner/banner-tantanmen.jpg');?>
 				</a>
 			</div>

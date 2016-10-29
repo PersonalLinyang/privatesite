@@ -1,6 +1,7 @@
 /* 共通bodyタグ */
 .guide-table {
 	margin: auto;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 600px;
 	font-size: 14px;
@@ -31,4 +32,28 @@
 	border-style: solid;
 	border-width: 1px;
 	padding: 8px;
+}
+
+#map {
+	width: 600px;
+	height: 500px;
+	margin: auto;
+}
+
+#map-link {
+	line-height: 40px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #713E00;
+	background: #FFCC66;
+	border-radius: 3px;
+	border-style: outset;
+	border-width: 3px;
+	border-top-color: #FFFFCC;
+	border-bottom-color: #FF9900;
+	border-left-color: #FFFFCC;
+	border-right-color: #FF9900;
 }

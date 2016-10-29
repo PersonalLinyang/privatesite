@@ -6,6 +6,8 @@
 /* 共通ヘッダ区域 */
 .header-area {
 	width: 1000px;
+	position: relative;
+	z-index: 1;
 	margin: auto;
 }
 
@@ -146,7 +148,7 @@
 	width: 670px;
 	margin-left: 9px;
 	margin-top: 10px;
-	border-radius: 10px;
+	border-radius: 13px;
 	border-style: inset;
 	border-color: #FFFF00;
 	border-width: 8px;
@@ -163,7 +165,7 @@
 	width: 646px;
 	margin-left: 9px;
 	margin-top: 10px;
-	border-radius: 10px;
+	border-radius: 13px;
 	padding: 20px;
 	padding-bottom: 30px;
 }
