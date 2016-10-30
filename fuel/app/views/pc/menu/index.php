@@ -11,22 +11,22 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-content-image">
+			<div class="main-image">
 				<a href="/menu/noodle_rice/">
 					<?php echo Asset::img('pc/menu/banner/banner-tantanmen.jpg');?>
 				</a>
 			</div>
-			<div class="main-content-image">
+			<div class="main-image">
 				<a href="/menu/set/">
 					<?php echo Asset::img('pc/menu/banner/banner-set.jpg');?>
 				</a>
 			</div>
-			<div class="main-content-image">
+			<div class="main-image">
 				<a href="/menu/single_set/">
 					<?php echo Asset::img('pc/menu/banner/banner-single_set.jpg');?>
 				</a>
 			</div>
-			<div class="main-content-image">
+			<div class="main-image">
 				<a href="/menu/choinomi/">
 					<?php echo Asset::img('pc/menu/banner/banner-choinomi.jpg');?>
 				</a>

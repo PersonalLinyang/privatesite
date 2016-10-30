@@ -15,7 +15,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-content-article">
+			<div class="main-article">
 				<h2>当店案内</h2>
 				<table class="guide-table" padding="0">
 					<tr>

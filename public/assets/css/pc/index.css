@@ -1,3 +1,4 @@
+/* スライド画像関連 */
 .image-slide-area {
     height: 350px;
 }
@@ -59,4 +60,52 @@
     background-image: url(/assets/img/pc/system/image-slide-right.png);
     cursor: pointer;
     display: none;
+}
+
+/* 当店カレンダー関連 */
+.table-calendar {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 600px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #713E00;
+}
+.table-calendar tr {
+}
+.table-calendar th {
+    margin: 0px;
+    width: 150px;
+    height: 30px;
+    vertical-align: middle;
+    background-color: #DDBB88;
+    border-color: #713E00;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px;
+}
+.table-calendar td {
+    margin: 0px;
+    height: 30px;
+    vertical-align: middle;
+    border-color: #713E00;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px;
+}
+.table-calendar td.table-calendar-title {
+    background-color: #713E00;
+    color: #F4D59F;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.workday {
+    background-image: url(/assets/img/pc/system/icon-redcircle.png);
 }

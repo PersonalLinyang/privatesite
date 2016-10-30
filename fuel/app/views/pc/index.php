@@ -13,7 +13,8 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-content-image image-slide-area">
+			<!-- スライド画像 -->
+			<div class="main-image image-slide-area">
 				<div class="image-slide-show">
 					<div class="image-slide-content">
 						<ul>
@@ -25,6 +26,15 @@
 					</div>
 					<div class="next">
 					</div>
+				</div>
+			</div>
+
+			<!-- 当店カレンダー -->
+			<div class="main-normal">
+				<div class="main-normal-title"><?php echo Asset::img('pc/system/icon-calendar.jpg');?>  当店カレンダー</div>
+				<div class="main-normal-content">
+					<?php echo $holiday_calendar; ?>
+					&nbsp;<span class="caution">※丸付けるのは営業日でございます</span>
 				</div>
 			</div>
 		</div>
