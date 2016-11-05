@@ -4,10 +4,10 @@ return array(
 	'_404_'   => '404',    // The main 404 route
 	
 	//indexページ
-	'menu'     => 'menu/index',
-	'guide'    => 'guide/index',
-	'campaign' => 'campaign/index',
-	'review'   => 'review/index',
+	'menu'    => 'menu/index',
+	'guide'   => 'guide/index',
+	'event'   => 'event/index',
+	'review'  => 'review/index',
 	
 	//メニュー
 	'menu/noodle_rice'  => 'menu/noodlerice',

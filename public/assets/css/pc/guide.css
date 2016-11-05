@@ -1,39 +1,3 @@
-/* 共通bodyタグ */
-.guide-table {
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	width: 600px;
-	font-size: 14px;
-	line-height: 20px;
-	text-align: left;
-	border-collapse: collapse;
-	border-spacing: 0;
-	border-style: solid;
-	border-width: 3px;
-	border-color: #713E00;
-}
-.guide-table tr {
-}
-.guide-table th {
-	margin: 0px;
-	width: 150px;
-	vertical-align: middle;
-	background-color: #DDBB88;
-	border-color: #713E00;
-	border-style: solid;
-	border-width: 1px;
-	padding: 8px;
-}
-.guide-table td {
-	margin: 0px;
-	vertical-align: top;
-	border-color: #713E00;
-	border-style: solid;
-	border-width: 1px;
-	padding: 8px;
-}
-
 #map {
 	width: 600px;
 	height: 500px;

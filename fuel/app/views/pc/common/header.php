@@ -17,7 +17,7 @@
 					</div>
 				</li>
 				<li><a href="/guide/" class="main-navi-link">当店案内</a></li>
-				<li><a href="/campaign/" class="main-navi-link">キャンペーン</a></li>
+				<li><a href="/event/" class="main-navi-link">イベント</a></li>
 				<li><a href="/review/" class="main-navi-link">お客様の声</a></li>
 			</ul>
 		</div>

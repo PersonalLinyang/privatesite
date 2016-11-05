@@ -17,7 +17,7 @@
 		<div class="main-area">
 			<div class="main-article">
 				<h2>当店案内</h2>
-				<table class="guide-table" padding="0">
+				<table class="main-article-table" padding="0">
 					<tr>
 						<th>店名</th>
 						<td>タンタンメン本舗</td>
@@ -45,7 +45,7 @@
 					</tr>
 					<tr>
 						<th>定休日</th>
-						<td></td>
+						<td>無休</td>
 					</tr>
 				</table>
 				<div id="map"></div>

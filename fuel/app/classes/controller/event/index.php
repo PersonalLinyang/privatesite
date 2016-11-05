@@ -1,9 +1,9 @@
 ﻿<?php
 /* 
- * キャンペーンページ
+ * イベントページ
  */
 
-class Controller_Campaign_Index extends Controller_App
+class Controller_Event_Index extends Controller_App
 {
 
 	/**
@@ -20,7 +20,7 @@ class Controller_Campaign_Index extends Controller_App
 		$data['header'] = Request::forge('common/header')->execute()->response();
 		
 		//View呼び出す
-		return Response::forge(View::forge($this->template . '/campaign/index', $data, false));
+		return Response::forge(View::forge($this->template . '/event/index', $data, false));
 	}
 	
 }

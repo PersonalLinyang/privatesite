@@ -202,10 +202,51 @@
 	margin-top: 10px;
 	border-radius: 13px;
 	padding: 20px;
-	padding-bottom: 30px;
 }
 .main-article h2 {
 	text-align: center;
+}
+
+.main-article-table {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #713E00;
+}
+.main-article-table tr {
+}
+.main-article-table th {
+	margin: 0px;
+	width: 150px;
+	vertical-align: middle;
+	background-color: #DDBB88;
+	border-color: #713E00;
+	border-style: solid;
+	border-width: 1px;
+	padding: 8px;
+}
+.main-article-table td {
+	margin: 0px;
+	vertical-align: top;
+	border-color: #713E00;
+	border-style: solid;
+	border-width: 1px;
+	padding: 8px;
+}
+.main-article-table td.main-article-table-title {
+	text-align: center;
+	background-color: #713E00;
+	color: #F4D59F;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 /* 通常サイドバー区域 */
