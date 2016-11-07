@@ -18,6 +18,9 @@ class Controller_Menu_SingleSet extends Controller_App
 		
 		//共通ヘッダー取得
 		$data['header'] = Request::forge('common/header')->execute()->response();
+
+		//単品・定食取得
+		$data['single_list'] = Model_Product::GetProductsBySubType(4, 4, 1);
 		
 		//View呼び出す
 		return Response::forge(View::forge($this->template . '/menu/single_set', $data, false));

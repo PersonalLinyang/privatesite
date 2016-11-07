@@ -1,0 +1,305 @@
+/*
+ * 共通
+ */
+
+/* 値段数字部分 */
+.big-price {
+	font-weight: bold;
+	font-size: 26px;
+	color: red;
+	text-shadow:#FFFFFF 2px 0 0,#FFFFFF 0 2px 0,#FFFFFF -2px 0 0,#FFFFFF 0 -2px 0;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+	text-shadow:#FFFFFF 2px 0 0,#FFFFFF 0 2px 0,#FFFFFF -2px 0 0,#FFFFFF 0 -2px 0;
+}
+
+
+
+/* 
+ * 麺類・ご飯類専用
+ */
+
+/* 麺類・ご飯類 リスト */
+.list-noodle_rice {
+	list-style-type: none;
+	width: 580px;
+	overflow: hidden;
+}
+.list-noodle_rice li {
+	width: 290px;
+	height: 140px;
+	float: left;
+}
+.list-noodle_rice li div.div-img {
+	float: left;
+	width: 120px;
+	height: 140px;
+}
+.list-noodle_rice li div.div-img img {
+	border-radius: 55px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #FFFF00;
+}
+.list-noodle_rice li div.div-info {
+	float: left;
+	width: 148px;
+	height: 140px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+.list-noodle_rice li div.div-info div.div-title {
+	font-weight: bold;
+}
+.list-noodle_rice li div.div-info div.div-price {
+	text-align: right;
+}
+
+/* 麺類・ご飯類 辛さ選択 */
+.div-kara-select {
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+.div-kara-select div.div-title {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+.div-kara-select ul.list-select {
+	list-style-type: none;
+	margin: auto;
+	margin-left: 110px;
+	overflow: hidden;
+}
+.div-kara-select ul.list-select li {
+	float: left;
+	font-weight: bold;
+	text-shadow:#713E00 1px 0 0,#713E00 0 1px 0,#713E00 -1px 0 0,#713E00 0 -1px 0;
+}
+.div-kara-select ul.list-select li.honnori {
+	width: 90px;
+	color: #FFFFFF;
+}
+.div-kara-select ul.list-select li.futsu {
+	width: 60px;
+	color: #FCFF00;
+}
+.div-kara-select ul.list-select li.chukara {
+	width: 60px;
+	color: #FFBC1A;
+}
+.div-kara-select ul.list-select li.okara {
+	width: 60px;
+	color: #FF7B1A;
+}
+.div-kara-select ul.list-select li.mechakara {
+	width: 90px;
+	color: #FF0000;
+}
+
+/* 麺類・ご飯類 トッピング */
+.list-topping {
+	list-style-type: none;
+	width: 570px;
+	overflow: hidden;
+}
+.list-topping li {
+	width: 190px;
+	float: left;
+}
+.list-topping li div table {
+	width: 190px;
+}
+.list-topping li div table tr td.td-title {
+	font-weight: bold;
+	width: 120px;
+}
+.list-topping li div table tr td.td-price {
+	width: 70px;
+}
+
+
+
+/* 
+ * 当店セット専用
+ */
+
+/* 当店セット リスト */
+.table-set {
+	margin: auto;
+	width: 580px;
+}
+.table-set tr td {
+	margin: 0px;
+	height: 120px;
+}
+.table-set tr td.td-main-img {
+	width: 116px;
+}
+.table-set tr td.td-main-img img {
+	border-radius: 55px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #FFFF00;
+}
+.table-set tr td.td-plus {
+	width: 18px;
+	font-weight: bold;
+}
+.table-set tr td.td-sub-img {
+	width: 76px;
+}
+.table-set tr td.td-sub-img img {
+	width: 60px;
+	border-radius: 33px;
+	border-style: inset;
+	border-width: 3px;
+	border-color: #FFFF00;
+}
+.table-set tr td.td-title {
+	font-weight: bold;
+	width: 290px;
+	padding: 10px;
+}
+.table-set tr td.td-price {
+	text-align: right;
+	width: 80px;
+}
+
+
+
+/* 
+ * 単品・定食専用
+ */
+
+/* 単品・定食 リスト */
+.list-single_set {
+	list-style-type: none;
+	width: 580px;
+	overflow: hidden;
+}
+.list-single_set li {
+	width: 290px;
+	height: 140px;
+	float: left;
+}
+.list-single_set li div.div-img {
+	float: left;
+	width: 120px;
+	height: 140px;
+}
+.list-single_set li div.div-img img {
+	border-radius: 55px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #FFFF00;
+}
+.list-single_set li div.div-info {
+	float: left;
+	width: 148px;
+	height: 140px;
+}
+.list-single_set li div.div-info table.table-info {
+	border-spacing: 0;
+	width: 148px;
+}
+.list-single_set li div.div-info table.table-info tr th {
+	margin: 0px;
+	height: 40px;
+}
+.list-single_set li div.div-info table.table-info tr td {
+	margin: 0px;
+}
+.list-single_set li div.div-info table.table-info tr td.td-price {
+	text-align: right;
+}
+
+
+
+/*
+ * ちょい飲み専用
+ */
+
+/* ちょい飲み 価格部分 */
+.list-choinomi-price {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+	padding-left: 120px;
+}
+
+/* ちょい飲み お酒リスト部分 */
+.list-choinomi-drink {
+	list-style-type: none;
+	width: 580px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.list-choinomi-drink li {
+	width: 240px;
+	float: left;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+/* ちょい飲み おつまみリスト部分 */
+.list-choinomi-food {
+	list-style-type: none;
+	width: 570px;
+	text-align: center;
+	overflow: hidden;
+}
+.list-choinomi-food li {
+	width: 150px;
+	height: 160px;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 20px;
+	font-weight: bold;
+}
+.list-choinomi-food img {
+	border-radius: 55px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #FFFF00;
+}
+
+
+
+/*
+ * お飲物専用
+ */
+
+/* お飲物 リスト */
+.table-drink {
+	width: 520px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.table-drink tr td.td-image {
+	width: 120px;
+}
+.table-drink tr td.td-image img {
+	border-radius: 55px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #FFFF00;
+}
+.table-drink tr td.td-list table.table-drink-list {
+	width: 400px;
+}
+.table-drink tr td.td-list table.table-drink-list tr td.td-title {
+	padding-left: 20px;
+	font-weight: bold;
+	width: 300px;
+}
+.table-drink tr td.td-list table.table-drink-list tr td.td-price {
+	text-align: right;
+	width: 100px;
+}

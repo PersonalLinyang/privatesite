@@ -1,5 +1,6 @@
 /* 共通bodyタグ */
 .body-common {
+	font-family: "メイリオ";
 	background: #000000 url(/assets/img/pc/system/body-bg.jpg) repeat;
 }
 
@@ -20,7 +21,6 @@
 
 /* 共通ヘッダサイトナビ部分 メインナビ */
 .header-navi {
-	font-family: "ＭＳ Ｐ明朝";
 	margin-top: 10px;
 }
 .header-navi ul {
@@ -189,7 +189,7 @@
 	border-width: 8px;
 }
 .main-image img {
-	margin-bottom: -3px;
+	margin-bottom: -8px;
 	border-radius: 5px;
 }
 
@@ -247,6 +247,22 @@
 	color: #F4D59F;
 	font-weight: bold;
 	font-size: 20px;
+}
+
+.main-article-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.main-article-subtitle {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.main-article-center {
+	text-align: center;
 }
 
 /* 通常サイドバー区域 */

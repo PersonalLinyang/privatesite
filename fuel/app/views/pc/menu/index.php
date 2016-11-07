@@ -31,6 +31,11 @@
 					<?php echo Asset::img('pc/menu/banner/banner-choinomi.jpg');?>
 				</a>
 			</div>
+			<div class="main-image">
+				<a href="/menu/drink/">
+					<?php echo Asset::img('pc/menu/banner/banner-drink.jpg');?>
+				</a>
+			</div>
 		</div>
 	</div>
 </body>
