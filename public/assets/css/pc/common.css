@@ -1,7 +1,7 @@
 /* 共通bodyタグ */
 .body-common {
 	font-family: "メイリオ";
-	background: #000000 url(/assets/img/pc/system/body-bg.jpg) repeat;
+	background: #000000 url(/assets/img/system/body-bg.jpg) repeat;
 }
 
 /* 共通ヘッダ区域 */
@@ -16,7 +16,7 @@
 .header-log	{
 	width: 1000px;
 	height: 250px;
-	background:	url(/assets/img/pc/system/header-log.jpg);
+	background:	url(/assets/img/system/header-log.jpg);
 }
 
 /* 共通ヘッダサイトナビ部分 メインナビ */
@@ -145,7 +145,7 @@
 /* 通常本文区域 通常タイプ */
 .main-normal {
 	color: #713E00;
-	background: #F4D59F url(/assets/img/pc/system/bg-log.png) repeat;
+	background: #F4D59F url(/assets/img/system/bg-log.png) repeat;
 	width: 670px;
 	margin-left: 9px;
 	margin-top: 10px;
@@ -170,7 +170,7 @@
 
 .main-normal-content {
 	color: #713E00;
-	background: #F4D59F url(/assets/img/pc/system/bg-log.png) repeat;
+	background: #F4D59F url(/assets/img/system/bg-log.png) repeat;
 	padding: 20px;
 	padding-bottom: 30px;
 	border-bottom-left-radius: 10px;
@@ -196,7 +196,7 @@
 /* 通常本文区域 文章タイプ */
 .main-article {
 	color: #713E00;
-	background: #F4D59F url(/assets/img/pc/system/bg-log.png) repeat;
+	background: #F4D59F url(/assets/img/system/bg-log.png) repeat;
 	width: 646px;
 	margin-left: 9px;
 	margin-top: 10px;

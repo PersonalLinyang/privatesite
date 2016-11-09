@@ -12,7 +12,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('pc/menu/banner/banner-set.jpg');?></a></div>
+			<div class="main-image"><?php echo Asset::img('menu/banner/banner-set.jpg');?></a></div>
 			<div class="main-article">
 				<?php foreach($set_list as $set_group) : ?>
 				<div class="main-article-title"><?php echo $set_group['group_name']; ?></div>
@@ -23,9 +23,9 @@
 							<td class="td-main-img">
 								<?php 
 									try {
-										echo Asset::img('pc/menu/product/img_p' . $set['main_id'] . '.jpg');
+										echo Asset::img('menu/product/img_p' . $set['main_id'] . '.jpg');
 									} catch(Exception $e) {
-										echo Asset::img('pc/system/img_product_nofound.jpg');
+										echo Asset::img('system/img_product_nofound.jpg');
 									}
 								?>
 							</td>
@@ -33,9 +33,9 @@
 							<td class="td-sub-img">
 								<?php 
 									try {
-										echo Asset::img('pc/menu/product/img_p' . $set['sub_id'] . '.jpg');
+										echo Asset::img('menu/product/img_p' . $set['sub_id'] . '.jpg');
 									} catch(Exception $e) {
-										echo Asset::img('pc/system/img_product_nofound.jpg');
+										echo Asset::img('system/img_product_nofound.jpg');
 									}
 								?>
 							</td>

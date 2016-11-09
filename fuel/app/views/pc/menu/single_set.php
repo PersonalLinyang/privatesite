@@ -12,7 +12,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('pc/menu/banner/banner-single_set.jpg');?></a></div>
+			<div class="main-image"><?php echo Asset::img('menu/banner/banner-single_set.jpg');?></a></div>
 			<div class="main-article">
 				<div class="main-article-title">単品・定食リスト</div>
 				<div>
@@ -22,9 +22,9 @@
 							<div class="div-img">
 								<?php 
 									try {
-										echo Asset::img('pc/menu/product/img_p' . $single->id . '.jpg');
+										echo Asset::img('menu/product/img_p' . $single->id . '.jpg');
 									} catch(Exception $e) {
-										echo Asset::img('pc/system/img_product_nofound.jpg');
+										echo Asset::img('system/img_product_nofound.jpg');
 									}
 								?>
 							</div>

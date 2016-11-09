@@ -44,7 +44,7 @@
     margin-left: 5px;
     width: 51px;
     height: 51px;
-    background-image: url(/assets/img/pc/system/image-slide-left.png);
+    background-image: url(/assets/img/system/image-slide-left.png);
     cursor: pointer;
     display: none;
 }
@@ -57,7 +57,7 @@
     margin-left: 558px;
     width: 51px;
     height: 51px;
-    background-image: url(/assets/img/pc/system/image-slide-right.png);
+    background-image: url(/assets/img/system/image-slide-right.png);
     cursor: pointer;
     display: none;
 }
@@ -107,5 +107,5 @@
 }
 
 .workday {
-    background-image: url(/assets/img/pc/system/icon-redcircle.png);
+    background-image: url(/assets/img/system/icon-redcircle.png);
 }

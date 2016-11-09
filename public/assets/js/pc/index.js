@@ -2,9 +2,9 @@ $(function () {
 
     /*======次の画像======*/
     $(".next").hover(function(){
-        $(".next").css("background-image", "url(/assets/img/pc/system/image-slide-right-active.png)");
+        $(".next").css("background-image", "url(/assets/img/system/image-slide-right-active.png)");
     }, function(){
-        $(".next").css("background-image", "url(/assets/img/pc/system/image-slide-right.png)");
+        $(".next").css("background-image", "url(/assets/img/system/image-slide-right.png)");
     });
 
     $(".next").click(function() { nextscroll(); });
@@ -22,9 +22,9 @@ $(function () {
 
     /*======前の画像======*/
     $(".prev").hover(function(){
-        $(".prev").css("background-image", "url(/assets/img/pc/system/image-slide-left-active.png)");
+        $(".prev").css("background-image", "url(/assets/img/system/image-slide-left-active.png)");
     }, function(){
-        $(".prev").css("background-image", "url(/assets/img/pc/system/image-slide-left.png)");
+        $(".prev").css("background-image", "url(/assets/img/system/image-slide-left.png)");
     });
 
     $(".prev").click(function() {

@@ -13,27 +13,27 @@
 		<div class="main-area">
 			<div class="main-image">
 				<a href="/menu/noodle_rice/">
-					<?php echo Asset::img('pc/menu/banner/banner-tantanmen.jpg');?>
+					<?php echo Asset::img('menu/banner/banner-tantanmen.jpg');?>
 				</a>
 			</div>
 			<div class="main-image">
 				<a href="/menu/set/">
-					<?php echo Asset::img('pc/menu/banner/banner-set.jpg');?>
+					<?php echo Asset::img('menu/banner/banner-set.jpg');?>
 				</a>
 			</div>
 			<div class="main-image">
 				<a href="/menu/single_set/">
-					<?php echo Asset::img('pc/menu/banner/banner-single_set.jpg');?>
+					<?php echo Asset::img('menu/banner/banner-single_set.jpg');?>
 				</a>
 			</div>
 			<div class="main-image">
 				<a href="/menu/choinomi/">
-					<?php echo Asset::img('pc/menu/banner/banner-choinomi.jpg');?>
+					<?php echo Asset::img('menu/banner/banner-choinomi.jpg');?>
 				</a>
 			</div>
 			<div class="main-image">
 				<a href="/menu/drink/">
-					<?php echo Asset::img('pc/menu/banner/banner-drink.jpg');?>
+					<?php echo Asset::img('menu/banner/banner-drink.jpg');?>
 				</a>
 			</div>
 		</div>

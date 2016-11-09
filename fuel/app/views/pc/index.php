@@ -18,8 +18,8 @@
 				<div class="image-slide-show">
 					<div class="image-slide-content">
 						<ul>
-							<li index="0"><a href="/guide/"><?php echo Asset::img('pc/main_visual/mv-tantanmen.jpg');?></a></li>
-							<li index="1"><a href="/menu/"><?php echo Asset::img('pc/main_visual/mv-menu.jpg');?></a></li>
+							<li index="0"><a href="/guide/"><?php echo Asset::img('main_visual/mv-tantanmen.jpg');?></a></li>
+							<li index="1"><a href="/menu/"><?php echo Asset::img('main_visual/mv-menu.jpg');?></a></li>
 						</ul>
 					</div>
 					<div class="prev">
@@ -31,7 +31,7 @@
 
 			<!-- 当店カレンダー -->
 			<div class="main-normal">
-				<div class="main-normal-title"><?php echo Asset::img('pc/system/icon-calendar.jpg');?>  当店カレンダー</div>
+				<div class="main-normal-title"><?php echo Asset::img('system/icon-calendar.jpg');?>  当店カレンダー</div>
 				<div class="main-normal-content">
 					<?php echo $holiday_calendar; ?>
 					&nbsp;<span class="caution">※丸付けるのは営業日でございます</span>

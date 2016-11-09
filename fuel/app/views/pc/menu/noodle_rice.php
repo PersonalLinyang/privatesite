@@ -12,7 +12,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('pc/menu/banner/banner-tantanmen.jpg');?></a></div>
+			<div class="main-image"><?php echo Asset::img('menu/banner/banner-tantanmen.jpg');?></a></div>
 			<div class="main-article">
 				<?php 
 				//var_dump($noodle_list); 
@@ -26,9 +26,9 @@
 							<div class="div-img">
 								<?php 
 									try {
-										echo Asset::img('pc/menu/product/img_p' . $tantanmen->id . '.jpg');
+										echo Asset::img('menu/product/img_p' . $tantanmen->id . '.jpg');
 									} catch(Exception $e) {
-										echo Asset::img('pc/system/img_product_nofound.jpg');
+										echo Asset::img('system/img_product_nofound.jpg');
 									}
 								?>
 							</div>
@@ -58,9 +58,9 @@
 							<div class="div-img">
 								<?php 
 									try {
-										echo Asset::img('pc/menu/product/img_p' . $noodle->id . '.jpg');
+										echo Asset::img('menu/product/img_p' . $noodle->id . '.jpg');
 									} catch(Exception $e) {
-										echo Asset::img('pc/system/img_product_nofound.jpg');
+										echo Asset::img('system/img_product_nofound.jpg');
 									}
 								?>
 							</div>
@@ -96,9 +96,9 @@
 							<div class="div-img">
 								<?php 
 									try {
-										echo Asset::img('pc/menu/product/img_p' . $rice->id . '.jpg');
+										echo Asset::img('menu/product/img_p' . $rice->id . '.jpg');
 									} catch(Exception $e) {
-										echo Asset::img('pc/system/img_product_nofound.jpg');
+										echo Asset::img('system/img_product_nofound.jpg');
 									}
 								?>
 							</div>

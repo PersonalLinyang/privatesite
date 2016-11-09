@@ -15,7 +15,7 @@
 		<div class="main-area">
 			<div>
 				<div class="main-image">
-					<?php echo Asset::img('pc/event/event-big_size_free.jpg');?>
+					<?php echo Asset::img('event/event-big_size_free.jpg');?>
 				</div>
 				<div class="main-article">
 					<table class="main-article-table" padding="0">
@@ -43,7 +43,7 @@
 			</div>
 			<div>
 				<div class="main-image">
-					<?php echo Asset::img('pc/event/event-noodle_500.jpg');?>
+					<?php echo Asset::img('event/event-noodle_500.jpg');?>
 				</div>
 				<div class="main-article">
 					<table class="main-article-table" padding="0">
