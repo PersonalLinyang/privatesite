@@ -12,6 +12,7 @@
 	padding-right: 10px;
 	text-decoration: none;
 	color: #713E00;
+	font-weight: bold;
 	background: #FFCC66;
 	border-radius: 3px;
 	border-style: outset;
@@ -20,4 +21,10 @@
 	border-bottom-color: #FF9900;
 	border-left-color: #FFFFCC;
 	border-right-color: #FF9900;
+}
+#map-link:hover {
+	background-color: #713E00;
+	border-style: solid;
+	border-color: #713E00;
+	color: #F4D59F;
 }

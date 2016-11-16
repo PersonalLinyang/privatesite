@@ -16,7 +16,8 @@
 .header-log	{
 	width: 1000px;
 	height: 250px;
-	background:	url(/assets/img/system/header-log.jpg);
+	background:	url(/assets/img/header/header-log.jpg);
+	border-radius: 10px;
 }
 
 /* 共通ヘッダサイトナビ部分 メインナビ */
@@ -265,6 +266,38 @@
 	text-align: center;
 }
 
+/* 通常本文区域 ページャタイプ */
+.main-pager {
+	width: 700px;
+	text-align: center;
+}
+.main-pager table {
+	margin: auto;
+}
+.main-pager ul {
+	list-style-type: none;
+	widows: 646px;
+	padding-left: 0px;
+	overflow: hidden;
+}
+.main-pager ul li {
+	background-color: #F4D59F;
+	float: left;
+	display: inline;
+	width: 26px;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 20px;
+	color: #713E00;
+}
+.main-pager ul li a {
+	text-decoration: none;
+	color: #713E00;
+}
+.main-pager ul li.long {
+	width: 52px;
+}
+
 /* 通常サイドバー区域 */
 .sidebar-area {
 	width: 300px;
@@ -280,6 +313,45 @@
 	margin-left: 7px;
 	border-radius: 10px;
 	padding: 20px;
+}
+
+/* サイドバーアンケート導線部分 */
+.sidebar-enquete {
+	background-image: url(/assets/img/sidebar/sidebar-enquete.jpg);
+	width: 285px;
+	height: 180px;
+	margin-top: 10px;
+	margin-left: 7px;
+	border-radius: 10px;
+}
+.link-enquete {
+	text-align: center;
+	padding-top: 132px;
+}
+.link-enquete a {
+	line-height: 40px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	color: #713E00;
+	background: #FFCC66;
+	border-radius: 3px;
+	border-style: outset;
+	border-width: 3px;
+	border-top-color: #FFFFCC;
+	border-bottom-color: #FF9900;
+	border-left-color: #FFFFCC;
+	border-right-color: #FF9900;
+	font-weight: bold;
+    user-select:none;
+}
+.link-enquete a:hover {
+	background-color: #713E00;
+	border-style: solid;
+	border-color: #713E00;
+	color: #F4D59F;
 }
 
 /* 注意書き */

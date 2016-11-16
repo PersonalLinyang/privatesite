@@ -113,6 +113,7 @@
 				</div>
 			</div>
 		</div>
+		<?php echo $sidebar; ?>
 	</div>
 </body>
 </html>

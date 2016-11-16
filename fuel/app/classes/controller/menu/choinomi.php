@@ -18,6 +18,8 @@ class Controller_Menu_Choinomi extends Controller_App
 		
 		//共通ヘッダー取得
 		$data['header'] = Request::forge('common/header')->execute()->response();
+		//共通サイドバー取得
+		$data['sidebar'] = Request::forge('common/sidebar')->execute()->response();
 
 		//ちょい飲み お飲物リスト取得
 		$data['drink_list'] = Model_Product::GetChoinomiDrink(1);

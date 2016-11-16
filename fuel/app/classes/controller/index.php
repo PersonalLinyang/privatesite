@@ -17,6 +17,8 @@ class Controller_Index extends Controller_App
 		
 		//共通ヘッダー取得
 		$data['header'] = Request::forge('common/header')->execute()->response();
+		//共通サイドバー取得
+		$data['sidebar'] = Request::forge('common/sidebar')->execute()->response();
 
 		//店休日カレンダー作成
 		$date_last = date('t');

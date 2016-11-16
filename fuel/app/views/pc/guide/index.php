@@ -51,17 +51,7 @@
 				<div id="map"></div>
 			</div>
 		</div>
-		<div class="sidebar-area">
-			<div class="sidebar-content">
-				キクラゲ・野菜・肉・玉子炒め<br/>test<br/>
-			</div>
-			<div class="sidebar-content">
-				test<br/>test<br/>
-			</div>
-			<div class="sidebar-content">
-				test<br/>test<br/>
-			</div>
-		</div>
+		<?php echo $sidebar; ?>
 	</div>
 </body>
 </html>

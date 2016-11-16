@@ -18,6 +18,8 @@ class Controller_Menu_NoodleRice extends Controller_App
 		
 		//共通ヘッダー取得
 		$data['header'] = Request::forge('common/header')->execute()->response();
+		//共通サイドバー取得
+		$data['sidebar'] = Request::forge('common/sidebar')->execute()->response();
 
 		//タンタンメンリスト取得
 		$data['tantanmen_list'] = Model_Product::GetProductsBySubType(1, 1, 1);
@@ -28,7 +30,7 @@ class Controller_Menu_NoodleRice extends Controller_App
 		//トッピングリスト取得
 		$data['topping_list'] = Model_Product::GetProductsBySubType(3, 11, 1);
 
-		//トッピングリスト取得
+		//ご飯類リスト取得
 		$data['rice_list'] = Model_Product::GetProductsBySubType(2, 3, 1);
 		
 		//View呼び出す

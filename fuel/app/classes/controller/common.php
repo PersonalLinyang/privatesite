@@ -16,5 +16,16 @@ class Controller_Common extends Controller_App
 		$data = array();
 		return Response::forge(View::forge($this->template . '/common/header', $data, false));
 	}
+
+	/**
+	 *
+	 * @access  public
+	 * @return  Response
+	 */
+	public function action_sidebar($param = null)
+	{
+		$data = array();
+		return Response::forge(View::forge($this->template . '/common/sidebar', $data, false));
+	}
 	
 }

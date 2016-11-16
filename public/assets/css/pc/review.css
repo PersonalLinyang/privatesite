@@ -1,0 +1,67 @@
+/* テーブル高さ調整 */
+.main-article-table {
+	margin-top: 5px;
+}
+.main-article-table th {
+	width: 90px;
+}
+
+/* レビュータイトル部分 */
+.review-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* レビュートップ情報(投稿時間、ユーザー)部分 */
+.review-top-info {
+	font-size: 12px;
+	text-align: right;
+	padding-right: 25px;
+}
+
+/* 注文リスト部分 */
+.table-order {
+	border-spacing: 0;
+	width: 470px;
+}
+.table-order tr th {
+	width: 90px;
+	vertical-align: top;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-style: dashed;
+	background-color: initial;
+}
+.table-order tr:first-child th {
+	border-top-width: 0px;
+}
+.table-order tr td {
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-style: dashed;
+}
+.table-order tr:first-child td {
+	border-top-width: 0px;
+}
+
+/* 印象(星)部分 */
+.table-level tr th {
+	border-width: 0px;
+	background-color: initial;
+	width: 120px;
+	padding: 0px;
+}
+.table-level tr td {
+	border-width: 0px;
+	font-size: 26px;
+	color: #713E00;
+	padding: 0px;
+}
+
+/* コメントタイトル部分 */
+.comment-title {
+	text-align: center;
+}

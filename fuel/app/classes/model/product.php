@@ -96,6 +96,26 @@ class Model_Product extends Model
 	}
 
 	/* 
+	 * IDリストで商品名リストを取得
+	 */
+	public static function GetProductNamesByIdArray($id_list) {
+		$product_names = array();
+		if(count($id_list)) {
+			$sql = "SELECT name FROM t_product WHERE id IN (" . implode(',', $id_list) . ") ";
+			$query = DB::query($sql);
+			$result = $query->execute()->as_array();
+
+			if(count($result)) {
+				foreach ($result as $product_info) {
+					$product_names[] = $product_info['name'];
+				}
+			}
+		}
+			
+		return $product_names;
+	}
+
+	/* 
 	 * セットリストを取得
 	 */
 	public static function GetSets($sell_flag) {
@@ -132,6 +152,7 @@ class Model_Product extends Model
 		if(count($result_set)) {
 			foreach ($result_set as $set) {
 				$sets[$set['set_group']]['set_list'][] = array(
+						'id' => $set['id'],
 						'main_id' => $set['main_id'],
 						'sub_id' => $set['sub_id'],
 						'set_name' => $set['set_name'],
@@ -143,6 +164,28 @@ class Model_Product extends Model
 		}
 
 		return $sets;
+	}
+
+	/* 
+	 * IDリストでセット名リストを取得
+	 */
+	public static function GetSetNamesByIdArray($id_list) {
+		$set_names = array();
+		if(count($id_list)) {
+			$sql = "SELECT sg.name group_name, s.set_name set_name "
+					. "FROM t_set s LEFT JOIN t_set_group sg ON s.set_group = sg.id " 
+					. "WHERE s.id IN (" . implode(',', $id_list) . ") ";
+			$query = DB::query($sql);
+			$result = $query->execute()->as_array();
+
+			if(count($result)) {
+				foreach ($result as $set_info) {
+					$set_names[] = $set_info['group_name'] . '(' . $set_info['set_name'] . ')';
+				}
+			}
+		}
+			
+		return $set_names;
 	}
 
 	/* 
