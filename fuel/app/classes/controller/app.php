@@ -17,8 +17,11 @@ class Controller_App extends Controller
 		
 		//PC、SPを判別してSPまたはFPならthemeをきりかえる
 		if (Agent::is_mobiledevice()) {
-			$this->template = 'sp';;
+			//$this->template = 'sp';;
 		}
+
+		//時間を日本時間に調整
+		date_default_timezone_set('Asia/Tokyo');
 		
 	}
 

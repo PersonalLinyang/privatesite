@@ -27,5 +27,25 @@ class Model_Holiday extends Model
 		return $holidays;
 	}
 
+	/* 
+	 * 休日チェック
+	 */
+	public static function CheckHoliday($year, $month, $day) {
+		$holidays = array();
+		$sql = "SELECT * FROM t_holiday WHERE year = :year AND month = :month AND day=:day";
+
+		$query = DB::query($sql);
+		$query->param('year', intval($year));
+		$query->param('month', intval($month));
+		$query->param('day', intval($day));
+		$result = $query->execute()->as_array();
+
+		if(count($result)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 }
 

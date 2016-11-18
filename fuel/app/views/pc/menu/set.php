@@ -50,5 +50,6 @@
 		</div>
 		<?php echo $sidebar; ?>
 	</div>
+	<?php echo $footer; ?>
 </body>
 </html>

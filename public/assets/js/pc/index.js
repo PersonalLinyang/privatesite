@@ -40,7 +40,7 @@ $(function () {
 
     //自動化
     var scrollTimer;
-    scrollTimer = setInterval(nextscroll,6000);
+    scrollTimer = setInterval(nextscroll,5000);
     $(".image-slide-area").hover(function() {
         $(".next").show();
         $(".prev").show();
@@ -48,7 +48,7 @@ $(function () {
     }, function() {
         $(".next").hide();
         $(".prev").hide();
-        scrollTimer = setInterval(nextscroll,6000);
+        scrollTimer = setInterval(nextscroll,5000);
     });
 
 });

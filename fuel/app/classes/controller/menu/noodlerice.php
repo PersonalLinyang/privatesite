@@ -20,6 +20,8 @@ class Controller_Menu_NoodleRice extends Controller_App
 		$data['header'] = Request::forge('common/header')->execute()->response();
 		//共通サイドバー取得
 		$data['sidebar'] = Request::forge('common/sidebar')->execute()->response();
+		//共通フッター取得
+		$data['footer'] = Request::forge('common/footer')->execute()->response();
 
 		//タンタンメンリスト取得
 		$data['tantanmen_list'] = Model_Product::GetProductsBySubType(1, 1, 1);
