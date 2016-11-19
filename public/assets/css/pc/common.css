@@ -299,6 +299,14 @@
 	width: 52px;
 }
 
+/* 通常本文区域 404ページ専用 */
+.main-404 {
+	height: 564px;
+}
+.main-404 h2:first-child {
+	margin-top: 100px;
+}
+
 /* 通常サイドバー区域 */
 .sidebar-area {
 	width: 300px;
@@ -495,4 +503,23 @@
 /* 注意書き */
 .caution {
 	font-size: 12px;
+}
+
+/* 完了ページトップページリンク */
+.link_top {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.link_top a {
+	color: #713E00;
+	font-weight: bold;
+	background-color: #DDBB88;
+	padding: 4px 50px;
+	border-radius: 16px;
+	text-decoration: none;
+}
+.link_top a:hover {
+	color: #F4D59F;
+	background-color: #713E00;
 }
