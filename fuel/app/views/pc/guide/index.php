@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>当店案内 - タンタンメン本舗</title>
+	<meta name="description" content="タンタンメン本舗のガイドページです。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。">
+	<meta name="keywords" content="タンタンメン本舗,案内,ガイド,地図">
+	<link rel="canonical" href="http://tantanmen-honpo.jp/guide/">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/guide.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>

@@ -2,7 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>ホームページ</title>
+	<title>麺類・ご飯類 - タンタンメン本舗</title>
+	<meta name="description" content="麺類、ご飯類メニューの一覧です。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。">
+	<meta name="keywords" content="タンタンメン本舗,メニュー,麺類,ご飯類,麺類 ご飯類">
+	<link rel="canonical" href="http://tantanmen-honpo.jp/menu/noodle_rice/">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/menu.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
@@ -14,9 +17,6 @@
 		<div class="main-area">
 			<div class="main-image"><?php echo Asset::img('menu/banner/banner-tantanmen.jpg');?></a></div>
 			<div class="main-article">
-				<?php 
-				//var_dump($noodle_list); 
-				?>
 				<div class="main-article-title">麺類</div>
 				<div class="main-article-subtitle">タンタンメン</div>
 				<div>

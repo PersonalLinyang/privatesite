@@ -2,7 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>ホームページ</title>
+	<title>お客様の声 - タンタンメン本舗</title>
+	<meta name="description" content="タンタンメン本舗のレビューページです。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。">
+	<meta name="keywords" content="タンタンメン本舗,レビュー,感想,口コミ">
+	<link rel="canonical" href="http://tantanmen-honpo.jp/review/">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/review.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
