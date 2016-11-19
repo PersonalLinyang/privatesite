@@ -1,6 +1,6 @@
 <div class="sidebar-area">
 	<?php //サイドバー店舗トップ ?>
-	<div class="sidebar-maininfo"></div>
+	<a href="/guide/"><div class="sidebar-maininfo"></div></a>
 	<?php //ニュース速報 ?>
 	<div class="sidebar-slide">
 		<div class="sidebar-slide-title">ニュース速報</div>

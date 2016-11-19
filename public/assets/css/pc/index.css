@@ -1,6 +1,7 @@
 /* スライド画像関連 */
 .image-slide-area {
     height: 350px;
+    user-select:none;
 }
 
 .image-slide-show {

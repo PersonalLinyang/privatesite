@@ -15,9 +15,10 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
+			<div class="main-image"><?php echo Asset::img('guide/banner-guide.jpg');?></a></div>
 			<div class="main-article">
-				<h2>当店案内</h2>
 				<table class="main-article-table" padding="0">
+					<tr><td class="main-article-table-title" colspan="2">当店情報</td></tr>
 					<tr>
 						<th>店名</th>
 						<td>タンタンメン本舗</td>

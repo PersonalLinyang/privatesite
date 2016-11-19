@@ -18,8 +18,8 @@
 				<div class="image-slide-show">
 					<div class="image-slide-content">
 						<ul>
-							<li index="0"><a href="/guide/"><?php echo Asset::img('main_visual/mv-tantanmen.jpg');?></a></li>
-							<li index="1"><a href="/menu/"><?php echo Asset::img('main_visual/mv-menu.jpg');?></a></li>
+							<li index="0"><?php echo Asset::img('main_visual/mv-tantanmen.jpg');?></li>
+							<li index="1"><?php echo Asset::img('main_visual/mv-menu.jpg');?></li>
 						</ul>
 					</div>
 					<div class="prev">
