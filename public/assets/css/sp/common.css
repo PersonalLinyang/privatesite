@@ -1,0 +1,72 @@
+/* 共通bodyタグ */
+.body-common {
+	margin: 0px;
+	width: 100%;
+	font-size: 40px;
+}
+
+/* 共通ヘッダ区域 */
+.header-area {
+	background-color: red;
+	padding: 10px;
+	overflow: none;
+	vertical-align: middle;
+	border-style: inset;
+	border-color: #FFFF00;
+	border-width: 15px;
+}
+
+/* 共通ヘッダロゴ部分 */
+.header-logo {
+	float: left;
+}
+
+/* 共通ヘッダボタン部分 */
+.header-button {
+	margin-top: 16px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+/* 分割線 */
+.parting-line {
+	width: 100%;
+	height: 6px;
+	background-color: #D8D8D8;
+	border-color: #6E6E6E;
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+/* 通常本文区域 通常タイプ */
+.main-normal {
+	color: #713E00;
+	background: #F4D59F url(/assets/img/system/bg-log.png) repeat;
+	width: 100%;
+}
+
+.main-normal-title {
+	color: #F4D59F;
+	background-color: #713E00;
+	height: 60px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 46px;
+	padding-bottom: 4px;
+	vertical-align: top;
+	text-align: center;
+    user-select:none;
+}
+.main-normal-title img {
+	height: 40px;
+}
+
+/* 注意書き */
+.caution {
+	font-size: 32px;
+}

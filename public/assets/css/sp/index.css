@@ -1,0 +1,52 @@
+.sp-image {
+	max-width: 100%;
+	height: auto;
+}
+.sp-buttons {
+	display: none;
+}
+
+.main-normal-title {
+	height: 55px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* 当店カレンダー関連 */
+.table-calendar {
+    margin: auto;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+.table-calendar tr {
+}
+.table-calendar th {
+    margin: 0px;
+    vertical-align: middle;
+    background-color: #DDBB88;
+    border-color: #713E00;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px;
+}
+.table-calendar td {
+    margin: 0px;
+    vertical-align: middle;
+    border-color: #713E00;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px;
+}
+.table-calendar td.table-calendar-title {
+    background-color: #713E00;
+    color: #F4D59F;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.workday {
+    background-image: url(/assets/img/system/icon-redcircle.png);
+}
