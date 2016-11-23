@@ -32,6 +32,13 @@
 				</div>
 			</div>
 
+			<div class="main-video">
+				<iframe width="670" height="386" src="https://www.youtube.com/embed/p7RA6r9rZLg" frameborder="0" allowfullscreen></iframe>
+				<div class="caution">
+					<a href="https://www.youtube.com/channel/UCLhwocU6brl2OYp57dgUxTA">@Atsushi's LIFE CHANNEL</a>さんからの動画、ありがとうございました
+				</div>
+			</div>
+
 			<!-- 当店カレンダー -->
 			<div class="main-normal">
 				<div class="main-normal-title"><?php echo Asset::img('system/icon-calendar.jpg');?>  当店カレンダー</div>
