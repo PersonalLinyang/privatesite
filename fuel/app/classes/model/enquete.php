@@ -20,8 +20,8 @@ class Model_Enquete extends Model
 	 * アンケート追加
 	 */
 	public static function AddEnquete($data) {
-		$sql = 'INSERT INTO t_enquete(name, secrit_flag, visit_date, order_list, level_flavor, level_service, level_environment, title, comment) '
-				. 'VALUES(:name, :secrit_flag, :visit_date, :order_list, :level_flavor, :level_service, :level_environment, :title, :comment)';
+		$sql = 'INSERT INTO t_enquete(name, secrit_flag, visit_date, order_list, level_flavor, level_service, level_environment, title, comment, create_date) '
+				. 'VALUES(:name, :secrit_flag, :visit_date, :order_list, :level_flavor, :level_service, :level_environment, :title, :comment, :create_date)';
 		$query = DB::query($sql);
 		foreach($data as $key => $value) {
 			$query->param($key, $value);
