@@ -25,7 +25,7 @@
 						<tr><td class="main-article-table-title" colspan="2">麺類全品大盛り無料サービス</td></tr>
 						<tr>
 							<th>開催期間</th>
-							<td>2016年11月4日～</td>
+							<td>2016年11月1日～</td>
 						</tr>
 						<tr>
 							<th>イベント内容</th>

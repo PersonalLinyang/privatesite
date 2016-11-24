@@ -18,7 +18,15 @@
 				</li>
 				<li><a href="/guide/" class="main-navi-link">当店案内</a></li>
 				<li><a href="/event/" class="main-navi-link">イベント</a></li>
-				<li><a href="/review/" class="main-navi-link">お客様の声</a></li>
+				<li class="js-navi-sub">
+					<a href="/review/" class="main-navi-link">お客様の声</a>
+					<div class="header-sub-navi">
+						<ul>
+							<li><a href="/review/article/" class="sub-navi-link">ネット上の声</a></li>
+							<li><a href="/review/comment/" class="sub-navi-link">本サイトコメント</a></li>
+						</ul>
+					</div>
+				</li>
 			</ul>
 		</div>
 	</div>

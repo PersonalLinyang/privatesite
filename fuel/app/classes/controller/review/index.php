@@ -13,7 +13,6 @@ class Controller_Review_Index extends Controller_App
 	 */
 	public function action_index($param = null)
 	{
-		session_start();
 		$data = array();
 		
 		//共通ヘッダー取得
@@ -24,15 +23,8 @@ class Controller_Review_Index extends Controller_App
 		$data['footer'] = Request::forge('common/footer')->execute()->response();
 
 		//アンケートリストとページャー取得
-		if(isset($_GET['page'])) {
-			$page = intval($_GET['page']);
-		} else {
-			$page = 1;
-		}
-		$num_per_page = 5;
-		$data['enquete_list'] = Model_Enquete::GetEnquetesByPage($page, $num_per_page);
-		$data['total_page_number'] = Model_Enquete::GetTotalPageNumber($num_per_page);
-		$data['page'] = $page;
+		$data['article_list'] = Model_Article::GetArticlesByPage(1, 5, 1);
+		$data['comment_list'] = Model_Enquete::GetEnquetesByPage(1, 5, 1);
 		
 		//View呼び出す
 		return Response::forge(View::forge($this->template . '/review/index', $data, false));

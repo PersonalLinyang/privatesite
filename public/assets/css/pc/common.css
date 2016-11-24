@@ -487,11 +487,11 @@
 }
 .footer-area div {
 	float: left;
-	width: 140px;
+	width: 150px;
 	margin-top: 20px;
 }
 .footer-area div:first-child {
-	margin-left: 695px;
+	margin-left: 675px;
 }
 .footer-area div ul {
 	list-style-type: none;
