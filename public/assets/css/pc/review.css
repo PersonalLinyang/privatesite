@@ -22,6 +22,7 @@
 .sub-main-content ul {
 	list-style-type: none;
 	padding-left: 0px;
+	height: 450px;
 }
 .sub-main-content ul li {
 	height: 90px;

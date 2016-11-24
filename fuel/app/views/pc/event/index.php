@@ -46,6 +46,34 @@
 			</div>
 			<div>
 				<div class="main-image">
+					<?php echo Asset::img('event/event-big_size_free.jpg');?>
+				</div>
+				<div class="main-article">
+					<table class="main-article-table" padding="0">
+						<tr><td class="main-article-table-title" colspan="2">麺類全品大盛り無料サービス</td></tr>
+						<tr>
+							<th>開催期間</th>
+							<td>2016年11月1日～</td>
+						</tr>
+						<tr>
+							<th>イベント内容</th>
+							<td>
+								<p>毎度ありがとうございます！</p>
+								<p>おかげさまで、タンタンメン本舗は順調に開店させていただきました。</p>
+								<p>皆様の熱愛を応えるために、本店は2016年11月4日から麺類全品大盛り無料サービスを開催いたします。</p>
+								<p>美味しいタンタンメンでお腹いっぱいにして、一日の疲れを癒して、極上の幸せを味わってください！</p>
+								<p>これからもどうかよろしくお願いいたします！！</p>
+							</td>
+						</tr>
+						<tr>
+							<th>対象商品</th>
+							<td>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div>
+				<div class="main-image">
 					<?php echo Asset::img('event/event-noodle_500.jpg');?>
 				</div>
 				<div class="main-article">
