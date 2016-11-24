@@ -34,5 +34,5 @@ desktop.ini
 
 
 
-.htaccess
-.htpasswd
+/public/.htaccess
+/public/.htpasswd
