@@ -22,19 +22,21 @@
 				</div>
 				<div class="main-article">
 					<table class="main-article-table" padding="0">
-						<tr><td class="main-article-table-title" colspan="2">麺類全品大盛り無料サービス</td></tr>
+						<tr><td class="main-article-table-title" colspan="2">年末年始イベント　麺類全品100円引き</td></tr>
 						<tr>
 							<th>開催期間</th>
-							<td>2016年11月1日～</td>
+							<td>2016年12月1日～2017年1月31日</td>
 						</tr>
 						<tr>
 							<th>イベント内容</th>
 							<td>
 								<p>毎度ありがとうございます！</p>
-								<p>おかげさまで、タンタンメン本舗は順調に開店させていただきました。</p>
-								<p>皆様の熱愛を応えるために、本店は2016年11月4日から麺類全品大盛り無料サービスを開催いたします。</p>
-								<p>美味しいタンタンメンでお腹いっぱいにして、一日の疲れを癒して、極上の幸せを味わってください！</p>
-								<p>これからもどうかよろしくお願いいたします！！</p>
+								<p>間もなく年末年始が訪れますが、タンタンメン本舗も皆様の熱愛の中で初めての年末年始を迎えます。</p>
+								<p>この記念すべき時に、タンタンメン本舗も皆様の期待に応えるために、「麺類全品100円引き」イベントを開催いたします！！</p>
+								<p>暖かいタンタンメンで旧年を送り、一年のお幸せを更にレベルアップ！</p>
+								<p>美味いタンタンメンで新年を迎え、一年のやる気がきっと湧いて来ます！！</p>
+								<p>もっと安くて、もっと美味しい。</p>
+								<p>タンタンメン本舗、お待ちしております！！</p>
 							</td>
 						</tr>
 						<tr>
@@ -78,7 +80,7 @@
 				</div>
 				<div class="main-article">
 					<table class="main-article-table" padding="0">
-						<tr><td class="main-article-table-title" colspan="2">開店イベント　麺類全品500円</td></tr>
+						<tr><td class="main-article-table-title" colspan="2">開店記念イベント　麺類全品500円</td></tr>
 						<tr>
 							<th>開催期間</th>
 							<td>2016年11月1日～2016年11月3日</td>
