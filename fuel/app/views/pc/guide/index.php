@@ -4,12 +4,13 @@
 	<meta charset="utf-8">
 	<title>当店案内 - タンタンメン本舗</title>
 	<meta name="description" content="タンタンメン本舗のガイドページです。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。">
-	<meta name="keywords" content="タンタンメン本舗,案内,ガイド,地図">
+	<meta name="keywords" content="タンタンメン本舗,案内,地図,横浜,坂東橋,曙町">
 	<link rel="canonical" href="http://tantanmen-honpo.jp/guide/">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/guide.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNec7O3yCFpIdsHK5rOVU4HRqiwikjrwU&callback=initMap&language=ja"></script>
+	<?php echo Asset::js('pc/google-analytics.js'); ?>
 	<?php echo Asset::js('pc/common.js'); ?>
 	<?php echo Asset::js('pc/guide.js'); ?>
 </script>
@@ -37,19 +38,48 @@
 					<tr>
 						<th>アクセス</th>
 						<td>
-							京浜急行黄金町駅から　徒歩6分<br/>
-							横浜市営地下鉄阪東橋駅から　徒歩５分<br/>
-							鎌倉街道沿い、横浜橋バス停近く<br/>
-							阪東橋から 260 米<br/>
+							阪東橋駅より徒歩3分<br/>
+							阪東橋駅から273m<br/>
 						</td>
 					</tr>
 					<tr>
 						<th>営業時間</th>
-						<td>昼：11:30～13:00<br/>夜：17:30～23:00</td>
+						<td>昼：11:30～15:00<br/>夜：17:30～24:00</td>
 					</tr>
 					<tr>
 						<th>定休日</th>
 						<td>無定休</td>
+					</tr>
+					<tr>
+						<th>カード</th>
+						<td>不可</td>
+					</tr>
+				</table>
+				<table class="main-article-table" padding="0">
+					<tr><td class="main-article-table-title" colspan="2">席・設備</td></tr>
+					<tr>
+						<th>席数</th>
+						<td>
+							合計　　　　　20席<br/>
+							カウンター席　 6席<br/>
+							テーブル席　　14席<br/>
+						</td>
+					</tr>
+					<tr>
+						<th>個室</th>
+						<td>無</td>
+					</tr>
+					<tr>
+						<th>貸切</th>
+						<td>不可</td>
+					</tr>
+					<tr>
+						<th>禁煙・喫煙</th>
+						<td>全面喫煙可</td>
+					</tr>
+					<tr>
+						<th>駐車場</th>
+						<td>無（100メートル以内に有料駐車場あり）</td>
 					</tr>
 				</table>
 				<div id="map"></div>

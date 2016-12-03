@@ -9,6 +9,7 @@
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/review.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<?php echo Asset::js('pc/google-analytics.js'); ?>
 	<?php echo Asset::js('pc/common.js'); ?>
 </head>
 <body class="body-common">
@@ -38,7 +39,7 @@
 					<a href="/review/article/" class="review-link-button"><div>詳しく見る</div></a>
 				</div>
 				<div class="sub-main-content">
-					<div class="review-title">本サイトコメント</div>
+					<div class="review-title">本サイトの声</div>
 					<div class="review-caution">本サイトから投稿した来店の感想です</div>
 					<ul>
 						<?php foreach($comment_list as $comment) : ?>

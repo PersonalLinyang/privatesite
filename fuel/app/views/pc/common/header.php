@@ -23,7 +23,7 @@
 					<div class="header-sub-navi">
 						<ul>
 							<li><a href="/review/article/" class="sub-navi-link">ネット上の声</a></li>
-							<li><a href="/review/comment/" class="sub-navi-link">本サイトコメント</a></li>
+							<li><a href="/review/comment/" class="sub-navi-link">本サイトの声</a></li>
 						</ul>
 					</div>
 				</li>

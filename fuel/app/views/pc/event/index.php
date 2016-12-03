@@ -4,11 +4,12 @@
 	<meta charset="utf-8">
 	<title>イベント - タンタンメン本舗</title>
 	<meta name="description" content="タンタンメン本舗のイベントページです。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。">
-	<meta name="keywords" content="タンタンメン本舗,イベント">
+	<meta name="keywords" content="タンタンメン本舗,イベント,横浜,坂東橋,曙町">
 	<link rel="canonical" href="http://tantanmen-honpo.jp/event/">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/event.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<?php echo Asset::js('pc/google-analytics.js'); ?>
 	<?php echo Asset::js('pc/common.js'); ?>
 	<?php echo Asset::js('pc/event.js'); ?>
 </head>
@@ -41,7 +42,10 @@
 						</tr>
 						<tr>
 							<th>対象商品</th>
-							<td>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</td>
+							<td>
+								<p>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</p>
+								<p>Aセット全種類、Bセット全種類、Cセット全種類</p>
+							</td>
 						</tr>
 					</table>
 				</div>
@@ -69,7 +73,10 @@
 						</tr>
 						<tr>
 							<th>対象商品</th>
-							<td>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</td>
+							<td>
+								<p>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</p>
+								<p>Aセット全種類、Bセット全種類、Cセット全種類</p>
+							</td>
 						</tr>
 					</table>
 				</div>
