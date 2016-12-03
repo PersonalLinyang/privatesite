@@ -7,14 +7,9 @@
 	<?php echo Asset::css('sp/common.css'); ?>
 	<?php echo Asset::css('sp/index.css'); ?>
 	<?php echo Asset::css('sp/download/slider-pro.css'); ?>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<?php echo Asset::js('sp/common.js'); ?>
-	<?php echo Asset::js('sp/index.js'); ?>
-	<?php echo Asset::js('sp/download/jquery.sliderPro.js'); ?>
 </head>
 <body class="body-common">
 	<?php echo $header; ?>
-	<div class="parting-line"></div>
 
 	<!-- スライド画像 -->
 	<div id="slider-pro" class="slider-pro">
@@ -44,9 +39,14 @@
 		<div class="main-normal-title"><?php echo Asset::img('system/icon-calendar.jpg');?>  当店カレンダー</div>
 		<div class="main-normal-content">
 			<?php echo $holiday_calendar; ?>
-			&nbsp;<span class="caution">※太文字のは営業日でございます</span>
+			<div class="caution">※太文字のは営業日でございます</div>
 		</div>
 	</div>
+
 	<?php echo $footer; ?>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<?php echo Asset::js('sp/common.js'); ?>
+	<?php echo Asset::js('sp/index.js'); ?>
+	<?php echo Asset::js('sp/download/jquery.sliderPro.js'); ?>
 </body>
 </html>

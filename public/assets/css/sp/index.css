@@ -9,7 +9,6 @@
 .table-calendar tr {
 }
 .table-calendar th {
-    margin: 10px;
     vertical-align: middle;
     background-color: #DDBB88;
     border-color: #713E00;
@@ -17,7 +16,6 @@
     border-width: 1px;
 }
 .table-calendar td {
-    margin: 10px;
     vertical-align: middle;
     border-color: #713E00;
     border-style: solid;
