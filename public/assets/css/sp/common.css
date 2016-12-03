@@ -2,43 +2,54 @@
 .body-common {
 	margin: 0px;
 	width: 100%;
-	font-size: 40px;
 }
 
 /* 共通ヘッダ区域 */
 .header-area {
 	background-color: red;
-	padding: 10px;
-	overflow: none;
-	vertical-align: middle;
+	overflow: hidden;
 	border-style: inset;
-	border-color: #FFFF00;
-	border-width: 15px;
+	border-width: 8px;
+	border-color: yellow;
+	vertical-align: center;
+	padding-top: 3%;
 }
 
 /* 共通ヘッダロゴ部分 */
 .header-logo {
 	float: left;
+	width: 70%;
+}
+.header-logo img {
+	width: 100%;
 }
 
 /* 共通ヘッダボタン部分 */
 .header-button {
-	margin-top: 16px;
-	text-align: right;
-	padding-right: 20px;
+	text-align: center;
+	float: left;
+	width: 15%;
+}
+.header-button img {
+	width: 80%;
 }
 
-/* 分割線 */
-.parting-line {
+/* 通常本文区域 道場部分 */
+.main-video {
+	position: relative;
 	width: 100%;
-	height: 6px;
-	background-color: #D8D8D8;
-	border-color: #6E6E6E;
-	border-style: solid;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 0px;
-	border-right-width: 0px;
+}
+.main-video:before {
+    content:"";
+    display: block;
+    padding-top: 56.25%; /* 高さと幅の比を16:9に固定。9/16*100=56.25 */
+}
+.main-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* 通常本文区域 通常タイプ */
@@ -51,22 +62,30 @@
 .main-normal-title {
 	color: #F4D59F;
 	background-color: #713E00;
-	height: 60px;
-	padding-top: 25px;
-	padding-bottom: 30px;
 	font-weight: bold;
-	font-size: 46px;
-	line-height: 46px;
-	padding-bottom: 4px;
 	vertical-align: top;
 	text-align: center;
     user-select:none;
+    padding-top: 3%;
 }
 .main-normal-title img {
-	height: 40px;
+}
+
+/* 分割線 */
+.parting-line {
+	width: 100%;
+	height: 3px;
+	background-color: #D8D8D8;
+	border-color: #6E6E6E;
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
 }
 
 /* 注意書き */
 .caution {
-	font-size: 32px;
+	font-size: 12px;
+	text-align: center;
 }

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>タンタンメン本舗</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<?php echo Asset::css('sp/common.css'); ?>
 	<?php echo Asset::css('sp/index.css'); ?>
 	<?php echo Asset::css('sp/download/slider-pro.css'); ?>
@@ -14,6 +15,7 @@
 <body class="body-common">
 	<?php echo $header; ?>
 	<div class="parting-line"></div>
+
 	<!-- スライド画像 -->
 	<div id="slider-pro" class="slider-pro">
 		<div class="sp-slides">
@@ -23,16 +25,28 @@
 			<div class="sp-slide"><?php echo Asset::img('main_visual/mv-menu.jpg', array('class' => 'sp-image'));?></div>
 		</div>
 	</div>
+
 	<div class="parting-line"></div>
+
+	<div class="main-video">
+		<iframe src="https://www.youtube.com/embed/p7RA6r9rZLg" frameborder="0" allowfullscreen=""></iframe>
+	</div>
+	<div class="main-normal">
+		<div class="caution">
+			<a href="https://www.youtube.com/channel/UCLhwocU6brl2OYp57dgUxTA">@Atsushi's LIFE CHANNEL</a>さんからの動画<br>ありがとうございました
+		</div>
+	</div>
+
+	<div class="parting-line"></div>
+
 	<!-- 当店カレンダー -->
 	<div class="main-normal">
 		<div class="main-normal-title"><?php echo Asset::img('system/icon-calendar.jpg');?>  当店カレンダー</div>
 		<div class="main-normal-content">
 			<?php echo $holiday_calendar; ?>
-			&nbsp;<span class="caution">※丸付けるのは営業日でございます</span>
+			&nbsp;<span class="caution">※太文字のは営業日でございます</span>
 		</div>
 	</div>
-	<div class="parting-line"></div>
 	<?php echo $footer; ?>
 </body>
 </html>
