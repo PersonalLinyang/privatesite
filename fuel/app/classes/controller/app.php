@@ -19,9 +19,13 @@ class Controller_App extends Controller
 		
 		//PC、SPを判別してSPまたはFPならthemeをきりかえる
 		if ((strpos($ua, 'iPhone') !== false)
-	    || (strpos($ua, 'iPod') !== false)
-	    || (strpos($ua, 'iPad') !== false)
-	    || (strpos($ua, 'Android') !== false)) {
+	    || (strpos($ua, 'Windows Phone') !== false)
+	    || (strpos($ua, 'DoCoMo') !== false)
+	    || (strpos($ua, 'KDDI') !== false)
+	    || (strpos($ua, 'SoftBank') !== false)
+	    || (strpos($ua, 'Vodafone') !== false)
+	    || (strpos($ua, 'J-PHONE') !== false)
+	    || (strpos($ua, 'Android') !== false && strpos($ua, 'Mobile') !== false)) {
 			$this->template = 'sp';
 		}
 
