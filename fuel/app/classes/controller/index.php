@@ -38,22 +38,27 @@ class Controller_Index extends Controller_App
 			$holiday_calendar .= '<td></td>';
 		}
 		for ($date = 1; $date <= $date_last; $date++) { 
+			if($day == 0) {
+				$holiday_calendar .= '<tr>';
+			}
 			if(in_array($date, $holiday_list)) {
 				$holiday_calendar .= '<td>' . $date . '</td>';
 			} else {
 				$holiday_calendar .= '<td class="workday">' . $date . '</td>';
 			}
 			if($day == 6) {
-				$holiday_calendar .= '</tr><tr>';
+				$holiday_calendar .= '</tr>';
 				$day = 0;
 				continue;
 			}
 			$day++;
 		}
-		for(; $day<7; $day++) {
-			$holiday_calendar .= '<td></td>';
+		if($day!=0) {
+			for(; $day<7; $day++) {
+				$holiday_calendar .= '<td></td>';
+			}
+			$holiday_calendar .= '</tr>';
 		}
-		$holiday_calendar .= '</tr>';
 		$holiday_calendar .= '</table>';
 		$data['holiday_calendar'] = $holiday_calendar;
 		
