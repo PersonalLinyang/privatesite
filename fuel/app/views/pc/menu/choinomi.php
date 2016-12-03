@@ -4,11 +4,12 @@
 	<meta charset="utf-8">
 	<title>ちょい飲み - タンタンメン本舗</title>
 	<meta name="description" content="ちょい飲みメニューの一覧です。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。">
-	<meta name="keywords" content="タンタンメン本舗,メニュー,ちょい飲み">
+	<meta name="keywords" content="タンタンメン本舗,ちょい飲み,メニュー">
 	<link rel="canonical" href="http://tantanmen-honpo.jp/menu/choinomi/">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/menu.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<?php echo Asset::js('pc/google-analytics.js'); ?>
 	<?php echo Asset::js('pc/common.js'); ?>
 </head>
 <body class="body-common">

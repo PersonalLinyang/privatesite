@@ -4,11 +4,12 @@
 	<meta charset="utf-8">
 	<title>当店セット - タンタンメン本舗</title>
 	<meta name="description" content="セットメニューの一覧です。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。">
-	<meta name="keywords" content="タンタンメン本舗,メニュー,セット">
+	<meta name="keywords" content="タンタンメン本舗,セット,メニュー">
 	<link rel="canonical" href="http://tantanmen-honpo.jp/menu/set/">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/menu.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<?php echo Asset::js('pc/google-analytics.js'); ?>
 	<?php echo Asset::js('pc/common.js'); ?>
 </head>
 <body class="body-common">

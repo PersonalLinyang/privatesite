@@ -1,9 +1,75 @@
 /* テーブル高さ調整 */
-.main-article-table {
-	margin-top: 5px;
+.main-article {
+	padding: 35px;
+	width: 616px;
 }
-.main-article-table th {
-	width: 90px;
+
+/* レビュートップページ本体部分 */
+.main-content-2cols {
+	overflow: hidden;
+}
+.sub-main-content {
+	float: left;
+	color: #713E00;
+	background: #F4D59F url(/assets/img/system/bg-log.png) repeat;
+	width: 298px;
+	height: 590px;
+	margin-left: 9px;
+	margin-top: 10px;
+	border-radius: 13px;
+	padding: 20px;
+}
+.sub-main-content ul {
+	list-style-type: none;
+	padding-left: 0px;
+	height: 450px;
+}
+.sub-main-content ul li {
+	height: 90px;
+}
+.sub-main-content ul li div.title {
+	font-weight: bold;
+}
+.sub-main-content ul li div.title a {
+	text-decoration: none;
+	color: #713E00;
+}
+.sub-main-content ul li div.info {
+	font-size: 12px;
+	text-align: right;
+	padding-right: 25px;
+}
+
+.review-link-button {
+	text-decoration: none;
+}
+.review-link-button div {
+	margin-top: 10px;
+	margin-left: 7px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius: 10px;
+	width: 277px;
+	color: #713E00;
+	background: #FFCC66;
+	border-radius: 8px;
+	border-style: outset;
+	border-width: 4px;
+	border-top-color: #FFFFCC;
+	border-bottom-color: #FF9900;
+	border-left-color: #FFFFCC;
+	border-right-color: #FF9900;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+    user-select:none;
+}
+.review-link-button:hover div {
+	background-color: #713E00;
+	border-style: solid;
+	border-color: #713E00;
+	color: #FFCC66;
 }
 
 /* レビュータイトル部分 */
@@ -11,6 +77,16 @@
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
+}
+
+.review-caution {
+	font-size: 12px;
+	text-align: center;
+}
+
+/* レビューコンテンツ部分 */
+.review-content img {
+	width: 610px;
 }
 
 /* レビュートップ情報(投稿時間、ユーザー)部分 */
@@ -64,4 +140,81 @@
 /* コメントタイトル部分 */
 .comment-title {
 	text-align: center;
+}
+
+/* ネット上の声リスト部分 */
+.article-list {
+	overflow: hidden;
+}
+
+.article-list-image {
+	background-color: red;
+	float: left;
+	width: 280px;
+	height: 160px;
+}
+.article-list-image img {
+	width: 280px;
+	height: 160px;
+}
+
+.article-list-content {
+	float: left;
+	margin-left: 20px;
+	width: 316px;
+	height: 160px;
+}
+.article-list-content div.title {
+	font-size: 20px;
+	font-weight: bold;
+	height: 65px;
+}
+.article-list-content div.title a {
+	text-decoration: none;
+	color: #713E00;
+}
+.article-list-content div.info {
+	margin-top: 5px;
+	font-size: 12px;
+	text-align: right;
+	height: 45px;
+}
+.article-list-content div.content {
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+
+.article-list-content div.link {
+	margin-top: 10px;
+	margin-left: 160px;
+	width: 140px;
+	height: 20px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+    user-select:none;
+}
+.article-list-content div.link a {
+	text-decoration: none;
+	width:  140px;
+	color: #713E00;
+}
+.article-list-content div.link a div {
+	padding-top: 3px;
+	background: #FFCC66;
+	border-radius: 6px;
+	border-style: outset;
+	border-width: 3px;
+	border-top-color: #FFFFCC;
+	border-bottom-color: #FF9900;
+	border-left-color: #FFFFCC;
+	border-right-color: #FF9900;
+}
+.article-list-content div.link a:hover div {
+	background-color: #713E00;
+	border-style: solid;
+	border-color: #713E00;
+	color: #FFCC66;
 }

@@ -299,6 +299,27 @@
 	width: 52px;
 }
 
+/* 通常本文区域 動画タイプ */
+.main-video {
+	height: 406px;
+	width: 670px;
+	background-color: #FFFF00;
+	width: 670px;
+	margin-left: 9px;
+	margin-top: 10px;
+	border-radius: 13px;
+	border-style: inset;
+	border-color: #FFFF00;
+	border-width: 8px;
+	text-align: center;
+    user-select:none;
+	background: #F4D59F url(/assets/img/system/bg-log.png) repeat;
+	line-height: 14px;
+}
+.main-image iframe {
+	border-radius: 5px;
+}
+
 /* 通常本文区域 404ページ専用 */
 .main-404 {
 	height: 564px;
@@ -466,11 +487,11 @@
 }
 .footer-area div {
 	float: left;
-	width: 140px;
+	width: 150px;
 	margin-top: 20px;
 }
 .footer-area div:first-child {
-	margin-left: 695px;
+	margin-left: 675px;
 }
 .footer-area div ul {
 	list-style-type: none;

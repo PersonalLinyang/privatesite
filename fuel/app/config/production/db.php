@@ -5,10 +5,11 @@
 
 return array(
 	'default' => array(
-		'connection'  => array(
-			'dsn'        => 'mysql:host=localhost;dbname=fuel_prod',
-			'username'   => 'fuel_app',
-			'password'   => 'super_secret_password',
+		'connection' => array(
+			'dsn' => 'mysql:host=rds-tantanmen.crc6ndro8wca.ap-northeast-1.rds.amazonaws.com;dbname=ttmdb',
+			'username' => 'root',
+			'password' => 'ylin19920518',
 		),
+		'profiling' => true,
 	),
 );

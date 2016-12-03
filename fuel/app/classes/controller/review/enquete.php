@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /* 
  * お客様の声ページ
  */
@@ -107,6 +107,7 @@ class Controller_Review_Enquete extends Controller_App
 						'level_environment' => $_POST['level_environment'],
 						'title' => $_POST['title'],
 						'comment' => $_POST['comment'],
+						'create_date' => date('Y-m-d H:i:s')
 					);
 
 				$data['sql'] = Model_Enquete::AddEnquete($enquete_info);

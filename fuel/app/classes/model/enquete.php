@@ -20,8 +20,8 @@ class Model_Enquete extends Model
 	 * アンケート追加
 	 */
 	public static function AddEnquete($data) {
-		$sql = 'INSERT INTO t_enquete(name, secrit_flag, visit_date, order_list, level_flavor, level_service, level_environment, title, comment) '
-				. 'VALUES(:name, :secrit_flag, :visit_date, :order_list, :level_flavor, :level_service, :level_environment, :title, :comment)';
+		$sql = 'INSERT INTO t_enquete(name, secrit_flag, visit_date, order_list, level_flavor, level_service, level_environment, title, comment, create_date) '
+				. 'VALUES(:name, :secrit_flag, :visit_date, :order_list, :level_flavor, :level_service, :level_environment, :title, :comment, :create_date)';
 		$query = DB::query($sql);
 		foreach($data as $key => $value) {
 			$query->param($key, $value);
@@ -34,10 +34,14 @@ class Model_Enquete extends Model
 	/* 
 	 * 該当ページのアンケートリスト取得
 	 */
-	public static function GetEnquetesByPage($page, $num_per_page) {
+	public static function GetEnquetesByPage($page, $num_per_page, $publish_flag) {
 
 		$enquetes = array();
-		$sql = 'SELECT * FROM t_enquete ORDER BY create_date DESC LIMIT :num_per_page OFFSET :start';
+		$sql = 'SELECT * FROM t_enquete ';
+		if($publish_flag) {
+			$sql .= 'WHERE publish_flag=1 ';
+		}
+		$sql .= 'ORDER BY create_date DESC LIMIT :num_per_page OFFSET :start';
 		$query = DB::query($sql);
 		$query->param('num_per_page', $num_per_page);
 		$query->param('start', ($page - 1) * $num_per_page);
@@ -117,9 +121,12 @@ class Model_Enquete extends Model
 	/* 
 	 * アンケートページ数取得
 	 */
-	public static function GetTotalPageNumber($num_per_page) {
+	public static function GetTotalPageNumber($num_per_page, $publish_flag) {
 		$total_page_number = 0;
-		$sql = 'SELECT count(*) count FROM t_enquete';
+		$sql = 'SELECT count(*) count FROM t_enquete ';
+		if($publish_flag) {
+			$sql .= 'WHERE publish_flag=1 ';
+		}
 		$query = DB::query($sql);
 		$result = $query->execute()->as_array();
 

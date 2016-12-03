@@ -4,11 +4,12 @@
 	<meta charset="utf-8">
 	<title>イベント - タンタンメン本舗</title>
 	<meta name="description" content="タンタンメン本舗のイベントページです。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。">
-	<meta name="keywords" content="タンタンメン本舗,イベント">
+	<meta name="keywords" content="タンタンメン本舗,イベント,横浜,坂東橋,曙町">
 	<link rel="canonical" href="http://tantanmen-honpo.jp/event/">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/event.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<?php echo Asset::js('pc/google-analytics.js'); ?>
 	<?php echo Asset::js('pc/common.js'); ?>
 	<?php echo Asset::js('pc/event.js'); ?>
 </head>
@@ -22,10 +23,43 @@
 				</div>
 				<div class="main-article">
 					<table class="main-article-table" padding="0">
+						<tr><td class="main-article-table-title" colspan="2">年末年始イベント　麺類全品100円引き</td></tr>
+						<tr>
+							<th>開催期間</th>
+							<td>2016年12月1日～2017年1月31日</td>
+						</tr>
+						<tr>
+							<th>イベント内容</th>
+							<td>
+								<p>毎度ありがとうございます！</p>
+								<p>間もなく年末年始が訪れますが、タンタンメン本舗も皆様の熱愛の中で初めての年末年始を迎えます。</p>
+								<p>この記念すべき時に、タンタンメン本舗も皆様の期待に応えるために、「麺類全品100円引き」イベントを開催いたします！！</p>
+								<p>暖かいタンタンメンで旧年を送り、一年のお幸せを更にレベルアップ！</p>
+								<p>美味いタンタンメンで新年を迎え、一年のやる気がきっと湧いて来ます！！</p>
+								<p>もっと安くて、もっと美味しい。</p>
+								<p>タンタンメン本舗、お待ちしております！！</p>
+							</td>
+						</tr>
+						<tr>
+							<th>対象商品</th>
+							<td>
+								<p>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</p>
+								<p>Aセット全種類、Bセット全種類、Cセット全種類</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div>
+				<div class="main-image">
+					<?php echo Asset::img('event/event-big_size_free.jpg');?>
+				</div>
+				<div class="main-article">
+					<table class="main-article-table" padding="0">
 						<tr><td class="main-article-table-title" colspan="2">麺類全品大盛り無料サービス</td></tr>
 						<tr>
 							<th>開催期間</th>
-							<td>2016年11月4日～</td>
+							<td>2016年11月1日～</td>
 						</tr>
 						<tr>
 							<th>イベント内容</th>
@@ -39,7 +73,10 @@
 						</tr>
 						<tr>
 							<th>対象商品</th>
-							<td>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</td>
+							<td>
+								<p>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</p>
+								<p>Aセット全種類、Bセット全種類、Cセット全種類</p>
+							</td>
 						</tr>
 					</table>
 				</div>
@@ -50,7 +87,7 @@
 				</div>
 				<div class="main-article">
 					<table class="main-article-table" padding="0">
-						<tr><td class="main-article-table-title" colspan="2">開店イベント　麺類全品500円</td></tr>
+						<tr><td class="main-article-table-title" colspan="2">開店記念イベント　麺類全品500円</td></tr>
 						<tr>
 							<th>開催期間</th>
 							<td>2016年11月1日～2016年11月3日</td>
