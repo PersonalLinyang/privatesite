@@ -16,7 +16,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('menu/banner/banner-drink.jpg');?></a></div>
+			<div class="main-image"><?php echo Asset::img('menu/banner/banner-drink.jpg');?></div>
 			<div class="main-article">
 				<?php foreach($drink_list as $sub_type_id => $drink_type) : ?>
 				<div class="main-article-title"><?php echo $drink_type['sub_type_name']; ?></div>

@@ -189,9 +189,9 @@
 	border-color: #FFFF00;
 	border-width: 8px;
     user-select:none;
+    line-height: 0px;
 }
 .main-image img {
-	margin-bottom: -8px;
 	border-radius: 5px;
 }
 
