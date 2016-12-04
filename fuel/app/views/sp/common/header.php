@@ -52,5 +52,5 @@
 		<div class="parting-line"></div>
 	</div>
 </header>
-<div class="header-shadow"></div>
+<div class="header-shadow"><div></div></div>
 <div class="overlay"></div>

@@ -1,11 +1,5 @@
 $(function(){
 
-	/* 追従ヘッダ コンテンツ部分のTopをヘッダの高さと一致にする */
-	$(document).ready(function(){
-		var headerHeight = $('.header-area')[0].clientHeight;
-		$('.header-shadow').animate({height:headerHeight + "px"});
-	});
-
 	/* 追従ヘッダ メニューを表示　メニューボタンクリック */
 	$('.ja-navi-main').click(function(){
 		if($(this).hasClass('active')) {

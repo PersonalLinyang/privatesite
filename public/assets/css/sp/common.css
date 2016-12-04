@@ -13,7 +13,21 @@ header {
 }
 
 /* 共通ヘッダメイン部分 */
+.header-area {
+    position: relative;
+    width: 100%;
+}
+.header-area:before {
+    content:"";
+    display: block;
+    padding-top: 20%;
+}
 .header-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 	background-color: red;
 	overflow: hidden;
 	border-style: inset;
@@ -109,6 +123,24 @@ header {
 .header-sub-navi table tr td a div {
 	font-size: 14px;
 	line-height: 26px;
+}
+
+/* 共通ヘッダハイド影部分 */
+.header-shadow {
+    position: relative;
+    width: 100%;
+}
+.header-shadow:before {
+    content:"";
+    display: block;
+    padding-top: 20%;
+}
+.header-shadow div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 /* メニュー灰色背景 */
