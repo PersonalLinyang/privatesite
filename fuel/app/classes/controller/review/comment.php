@@ -32,6 +32,12 @@ class Controller_Review_Comment extends Controller_App
 		$data['enquete_list'] = Model_Enquete::GetEnquetesByPage($page, $num_per_page, 1);
 		$data['total_page_number'] = Model_Enquete::GetTotalPageNumber($num_per_page, 1);
 		$data['page'] = $page;
+
+		//TDK
+		$data['title'] = '本サイトの声 - タンタンメン本舗';
+		$data['description'] = 'タンタンメン本舗のレビューページ(本サイトの声)です。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。';
+		$data['keywords'] = 'タンタンメン本舗,レビュー,感想,口コミ,本サイトの声';
+		$data['canonical'] = 'http://' . $_SERVER['HTTP_HOST'] . '/review/comment/';
 		
 		//View呼び出す
 		if($page > $data['total_page_number']) {

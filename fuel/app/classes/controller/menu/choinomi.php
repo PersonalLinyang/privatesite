@@ -28,6 +28,12 @@ class Controller_Menu_Choinomi extends Controller_App
 
 		//ちょい飲み おつまみリスト取得
 		$data['dishes_list'] = Model_Product::GetChoinomiDishes(1);
+
+		//TDK
+		$data['title'] = 'ちょい飲み - タンタンメン本舗';
+		$data['description'] = 'ちょい飲みメニューの一覧です。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。';
+		$data['keywords'] = 'タンタンメン本舗,ちょい飲み,メニュー';
+		$data['canonical'] = 'http://' . $_SERVER['HTTP_HOST'] . '/menu/choinomi/';
 		
 		//View呼び出す
 		return Response::forge(View::forge($this->template . '/menu/choinomi', $data, false));

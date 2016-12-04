@@ -2,10 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>メニュー - タンタンメン本舗</title>
-	<meta name="description" content="販売中のメニュー一覧です。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。">
-	<meta name="keywords" content="タンタンメン本舗,メニュー,一覧">
-	<link rel="canonical" href="http://tantanmen-honpo.jp/menu/">
+	<title><?php echo $title; ?></title>
+	<meta name="description" content="<?php echo $description; ?>">
+	<meta name="keywords" content="<?php echo $keywords; ?>">
+	<link rel="canonical" href="<?php echo $canonical; ?>">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<?php echo Asset::js('pc/google-analytics.js'); ?>

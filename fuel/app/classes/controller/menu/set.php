@@ -25,6 +25,12 @@ class Controller_Menu_Set extends Controller_App
 
 		//タンタンメンリスト取得
 		$data['set_list'] = Model_Product::GetSets(1);
+
+		//TDK
+		$data['title'] = '当店セット - タンタンメン本舗';
+		$data['description'] = 'セットメニューの一覧です。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。';
+		$data['keywords'] = 'タンタンメン本舗,セット,メニュー';
+		$data['canonical'] = 'http://' . $_SERVER['HTTP_HOST'] . '/menu/set/';
 		
 		//View呼び出す
 		return Response::forge(View::forge($this->template . '/menu/set', $data, false));
