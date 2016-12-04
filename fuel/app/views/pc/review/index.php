@@ -16,7 +16,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('review/banner-review.jpg');?></a></div>
+			<div class="main-image"><?php echo Asset::img('review/banner-review.jpg');?></div>
 			<div class="main-content-2cols">
 				<div class="sub-main-content">
 					<div class="review-title">ネット上の声</div>

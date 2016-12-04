@@ -17,7 +17,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('review/banner-review.jpg');?></a></div>
+			<div class="main-image"><?php echo Asset::img('review/banner-review.jpg');?></div>
 			<div class="main-article">
 				<h2>ご感想を教えてお願いいたします</h2>
 				<form action="" method="post" id="form_enquete">

@@ -16,7 +16,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('menu/banner/banner-single_set.jpg');?></a></div>
+			<div class="main-image"><?php echo Asset::img('menu/banner/banner-single_set.jpg');?></div>
 			<div class="main-article">
 				<div class="main-article-title">単品・定食リスト</div>
 				<div>

@@ -19,7 +19,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('guide/banner-guide.jpg');?></a></div>
+			<div class="main-image"><?php echo Asset::img('guide/banner-guide.jpg');?></div>
 			<div class="main-article">
 				<table class="main-article-table" padding="0">
 					<tr><td class="main-article-table-title" colspan="2">当店情報</td></tr>

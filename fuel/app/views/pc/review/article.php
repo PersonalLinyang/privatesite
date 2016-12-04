@@ -16,7 +16,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('review/banner-review.jpg');?></a></div>
+			<div class="main-image"><?php echo Asset::img('review/banner-review.jpg');?></div>
 			<?php foreach($article_list as $article) : ?>
 			<div class="main-article">
 				<div class="article-list">
