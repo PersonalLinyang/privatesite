@@ -34,6 +34,12 @@ class Controller_Menu_NoodleRice extends Controller_App
 
 		//ご飯類リスト取得
 		$data['rice_list'] = Model_Product::GetProductsBySubType(2, 3, 1);
+
+		//TDK
+		$data['title'] = '麺類・ご飯類 - タンタンメン本舗';
+		$data['description'] = '麺類、ご飯類メニューの一覧です。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。';
+		$data['keywords'] = 'タンタンメン本舗,麺類,ご飯類,メニュー';
+		$data['canonical'] = 'http://' . $_SERVER['HTTP_HOST'] . '/menu/noodle_rice/';
 		
 		//View呼び出す
 		return Response::forge(View::forge($this->template . '/menu/noodle_rice', $data, false));

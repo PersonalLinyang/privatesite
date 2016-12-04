@@ -32,6 +32,12 @@ class Controller_Review_Article extends Controller_App
 		$data['article_list'] = Model_Article::GetArticlesByPage($page, $num_per_page, 1);
 		$data['total_page_number'] = Model_Enquete::GetTotalPageNumber($num_per_page, 1);
 		$data['page'] = $page;
+
+		//TDK
+		$data['title'] = 'ネット上の声 - タンタンメン本舗';
+		$data['description'] = 'タンタンメン本舗のレビューページ(ネット上の声)です。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。';
+		$data['keywords'] = 'タンタンメン本舗,レビュー,感想,口コミ,ネット上の声';
+		$data['canonical'] = 'http://' . $_SERVER['HTTP_HOST'] . '/review/article/';
 		
 		//View呼び出す
 		if($page > $data['total_page_number']) {
@@ -61,6 +67,12 @@ class Controller_Review_Article extends Controller_App
 
 		//文章情報取得
 		$article = Model_Article::GetArticle($article_id, 1);
+
+		//TDK
+		$data['title'] = $article->title . ' - タンタンメン本舗';
+		$data['description'] = $article->title . '。タンタンメン本舗のレビュー詳細ページです。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。';
+		$data['keywords'] = 'タンタンメン本舗,レビュー,' . $article->title;
+		$data['canonical'] = 'http://' . $_SERVER['HTTP_HOST'] . '/review/article/detail/' . $article_id . '/';
 		
 		//View呼び出す
 		if($article) {

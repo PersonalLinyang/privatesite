@@ -25,6 +25,12 @@ class Controller_Review_Index extends Controller_App
 		//アンケートリストとページャー取得
 		$data['article_list'] = Model_Article::GetArticlesByPage(1, 5, 1);
 		$data['comment_list'] = Model_Enquete::GetEnquetesByPage(1, 5, 1);
+
+		//TDK
+		$data['title'] = 'お客様の声 - タンタンメン本舗';
+		$data['description'] = 'タンタンメン本舗のレビューページです。タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。';
+		$data['keywords'] = 'タンタンメン本舗,レビュー,感想,口コミ';
+		$data['canonical'] = 'http://' . $_SERVER['HTTP_HOST'] . '/review/';
 		
 		//View呼び出す
 		return Response::forge(View::forge($this->template . '/review/index', $data, false));

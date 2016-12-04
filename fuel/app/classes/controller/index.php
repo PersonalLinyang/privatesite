@@ -61,6 +61,12 @@ class Controller_Index extends Controller_App
 		}
 		$holiday_calendar .= '</table>';
 		$data['holiday_calendar'] = $holiday_calendar;
+
+		//TDK
+		$data['title'] = 'タンタンメン本舗';
+		$data['description'] = 'タンタンメン本舗は神奈川県横浜市坂東橋近くのタンタンメン専門店です。タンタンメンだけではなく、各種麺類、各種ご飯、餃子、単品料理、定食料理、ちょい飲みなど様々な美味しい料理を販売しています、メニューを見るとお気に入りの料理がきっと見つかります。美味しい料理食べたいならぜひタンタンメン本舗へ！';
+		$data['keywords'] = 'タンタンメン本舗,横浜,坂東橋,曙町';
+		$data['canonical'] = 'http://' . $_SERVER['HTTP_HOST'] . '/';
 		
 		//View呼び出す
 		return Response::forge(View::forge($this->template . '/index', $data, false));
