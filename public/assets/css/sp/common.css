@@ -3,6 +3,7 @@
 	font-family: "メイリオ";
 	margin: 0px;
 	width: 100%;
+	background: #000000 url(/assets/img/system/body-bg.jpg) repeat;
 }
 
 /* 共通ヘッダ区域 */
