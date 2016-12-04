@@ -47,7 +47,7 @@
 				</div>
 			</li>
 			<li><a href="/review/enquete/" class="sub-navi-link"><div>来店感想投稿</div></a></li>
-			<li><div>ページの先頭戻る</li>
+			<li class="header-toplink"><div>ページの先頭戻る</div></li>
 		</ul>
 		<div class="parting-line"></div>
 	</div>

@@ -26,7 +26,7 @@ $(function(){
 			$(this).addClass('active');
 		}
 	});
-	
+
 	/* 追従ヘッダ メニューを表示　灰色背景クリック */
 	$('.overlay').click(function(){
 		$('.header-navi').slideUp();
@@ -41,6 +41,18 @@ $(function(){
 	/* 追従ヘッダ サブメニューを表示 */
 	$('.js-navi-sub').click(function(){
 		$(this).parent().find('.header-sub-navi').slideToggle();
+	});
+
+	/* 追従ヘッダ 先頭へ戻るボタンクリック */
+	$('.header-toplink').click(function(){
+    	$("html,body").animate({scrollTop:0}, 'slow');
+		$('.header-navi').slideUp();
+		$('.overlay').hide();
+		$('body').css({
+			overflow: '',
+			height:   ''
+		});
+		$('.ja-navi-main').removeClass('active');
 	});
 
 });
