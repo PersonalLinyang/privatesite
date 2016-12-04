@@ -1,0 +1,46 @@
+.main-article-map {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.main-article-map:before {
+    content:"";
+    display: block;
+    padding-top: 100%;
+}
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#map-link {
+    color: #F4D59F;
+    line-height: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #713E00;
+    border-radius: 3px;
+    user-select:none;
+}
+
+#tel-link {
+    color: #F4D59F;
+    line-height: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #713E00;
+    border-radius: 3px;
+    user-select:none;
+}

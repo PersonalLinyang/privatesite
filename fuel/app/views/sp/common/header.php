@@ -2,7 +2,7 @@
 	<div class="header-area">
 		<div class="header-main">
 			<div class="header-logo">
-				<?php echo Asset::img('system/logo.png'); ?>
+				<a href="/" class="main-navi-link"><?php echo Asset::img('system/logo.png'); ?></a>
 			</div>
 			<div class="header-button">
 				<a href="tel:045-294-9045"><?php echo Asset::img('system/header_tel_btn.png'); ?></a>
@@ -15,7 +15,6 @@
 	</div>
 	<div class="header-navi">
 		<ul>
-			<li><a href="/" class="main-navi-link"><div>トップページ</div></a></li>
 			<li>
 				<div class="js-navi-sub">メニュー</div>
 				<div class="header-sub-navi">

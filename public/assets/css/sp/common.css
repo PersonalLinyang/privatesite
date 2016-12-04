@@ -34,7 +34,7 @@ header {
 	border-width: 8px;
 	border-color: yellow;
 	vertical-align: center;
-	padding-top: 3%;
+	padding-top: 2%;
 }
 
 /* 共通ヘッダロゴ部分 */
@@ -190,6 +190,16 @@ header {
 .main-normal-title img {
 }
 
+/* 通常本文区域 画像タイプ */
+.main-image {
+	width: 100%;
+    user-select:none;
+    line-height: 0px;
+}
+.main-image img {
+	width: 100%;
+}
+
 /* 通常本文区域 文章タイプ */
 .main-article {
 	color: #713E00;
@@ -200,6 +210,48 @@ header {
 .main-article h2 {
 	font-size: 18px;
 	text-align: center;
+}
+
+.main-article-table {
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #713E00;
+}
+.main-article-table tr {
+}
+.main-article-table th {
+	margin: 0px;
+	width: 80px;
+	vertical-align: middle;
+	background-color: #DDBB88;
+	border-color: #713E00;
+	border-style: solid;
+	border-width: 1px;
+	padding: 8px;
+}
+.main-article-table td {
+	margin: 0px;
+	vertical-align: top;
+	border-color: #713E00;
+	border-style: solid;
+	border-width: 1px;
+	padding: 8px;
+}
+.main-article-table td.main-article-table-title {
+	text-align: center;
+	background-color: #713E00;
+	color: #F4D59F;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 /* 共通フッタ区域 */
