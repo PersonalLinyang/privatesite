@@ -3,7 +3,6 @@
 	font-family: "メイリオ";
 	margin: 0px;
 	width: 100%;
-	background: #000000 url(/assets/img/system/body-bg.jpg) repeat;
 }
 
 /* 共通ヘッダ区域 */
@@ -27,7 +26,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 5px;
     right: 0;
 	background-color: red;
 	overflow: hidden;
@@ -191,6 +190,18 @@ header {
 .main-normal-title img {
 }
 
+/* 通常本文区域 文章タイプ */
+.main-article {
+	color: #713E00;
+	background: #F4D59F url(/assets/img/system/bg-log.png) repeat;
+	width: 90%;
+	padding: 5%;
+}
+.main-article h2 {
+	font-size: 18px;
+	text-align: center;
+}
+
 /* 共通フッタ区域 */
 .footer-area {
 	background-color: red;
@@ -228,4 +239,19 @@ header {
 .caution {
 	font-size: 12px;
 	text-align: center;
+}
+
+/* 完了ページトップページリンク */
+.link-top {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.link-top a {
+	color: #F4D59F;
+	background-color: #713E00;
+	font-weight: bold;
+	padding: 4px 50px;
+	border-radius: 16px;
+	text-decoration: none;
 }
