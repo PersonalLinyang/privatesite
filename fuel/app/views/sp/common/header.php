@@ -26,7 +26,7 @@
 						</tr>
 						<tr>
 							<td><a href="/menu/single_set/" class="sub-navi-link"><div>単品・定食</div></a></td>
-							<td><a href="/menu/single_set/" class="sub-navi-link"><div>単品・定食</div></a></td>
+							<td><a href="/menu/choinomi/" class="sub-navi-link"><div>ちょい飲み</div></a></td>
 							<td><a href="/menu/drink/" class="sub-navi-link"><div>お飲物</div></a></td>
 						</tr>
 					</table>

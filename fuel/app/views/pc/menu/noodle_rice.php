@@ -91,6 +91,7 @@
 					</ul>
 				</div>
 				<div class="main-article-title">ご飯類</div>
+				<div>
 					<ul class="list-noodle_rice">
 						<?php foreach ($rice_list as $rice) : ?>
 						<li>
@@ -110,7 +111,6 @@
 						</li>
 						<?php endforeach; ?>
 					</ul>
-				<div>
 				</div>
 			</div>
 		</div>
