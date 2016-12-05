@@ -265,6 +265,48 @@ header {
 	font-size: 18px;
 }
 
+/* 通常本文区域 ページャタイプ */
+.main-pager {
+	width: 100%;
+	text-align: center;
+}
+.main-pager table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+.main-pager table tr td {
+	background-color: #F4D59F;
+	border-color: #6E6E6E;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-style: solid;
+}
+.main-pager table tr td:first-child {
+	border-left-width: 0px;
+}
+.main-pager table tr td:last-child {
+	border-right-width: 0px;
+}
+.main-pager table tr td.active {
+	background-color: #DDBB88;
+}
+.main-pager table tr td.short {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.main-pager table tr td a {
+	text-decoration: none;
+	color: #713E00;
+}
+.main-pager table tr td a div {
+	width: 100%;
+	height: 100%;
+}
+
 /* 共通フッタ区域 */
 .footer-area {
 	background-color: red;

@@ -148,7 +148,6 @@
 }
 
 .article-list-image {
-	background-color: red;
 	float: left;
 	width: 280px;
 	height: 160px;
@@ -179,12 +178,6 @@
 	text-align: right;
 	height: 45px;
 }
-.article-list-content div.content {
-	margin-top: 5px;
-	font-size: 14px;
-}
-
-
 .article-list-content div.link {
 	margin-top: 10px;
 	margin-left: 160px;

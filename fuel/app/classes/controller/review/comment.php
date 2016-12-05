@@ -28,7 +28,11 @@ class Controller_Review_Comment extends Controller_App
 		} else {
 			$page = 1;
 		}
-		$num_per_page = 5;
+		if($this->template == 'pc') {
+			$num_per_page = 5;
+		} else {
+			$num_per_page = 3;
+		}
 		$data['enquete_list'] = Model_Enquete::GetEnquetesByPage($page, $num_per_page, 1);
 		$data['total_page_number'] = Model_Enquete::GetTotalPageNumber($num_per_page, 1);
 		$data['page'] = $page;

@@ -1,0 +1,90 @@
+/* レビュータイトル部分 */
+.review-title {
+    font-weight: bold;
+}
+
+/* レビュートップ情報(投稿時間、ユーザー)部分 */
+.review-top-info {
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5%;
+}
+
+/* 注文リスト部分 */
+.table-order {
+    border-spacing: 0;
+    width: 100%;
+}
+.table-order tr th {
+    vertical-align: top;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-style: dashed;
+    background-color: initial;
+}
+.table-order tr:first-child th {
+    border-top-width: 0px;
+}
+.table-order tr td {
+    border-style: none;
+}
+
+/* 印象(星)部分 */
+.table-level tr th {
+    border-width: 0px;
+    background-color: initial;
+    width: 120px;
+    padding: 0px;
+}
+.table-level tr td {
+    border-width: 0px;
+    font-size: 26px;
+    color: #713E00;
+    padding: 0px;
+}
+
+/* ネット上の声リスト部分 */
+.article-list-image {
+    width: 100%;
+}
+.article-list-image img {
+    width: 100%;
+}
+
+.article-list-content {
+    width: 100%;
+}
+.article-list-content div.title {
+    font-weight: bold;
+}
+.article-list-content div.title a {
+    text-decoration: none;
+    color: #713E00;
+}
+.article-list-content div.info {
+    font-size: 12px;
+    text-align: right;
+}
+.article-list-content div.link {
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select:none;
+}
+.article-list-content div.link a {
+    color: #F4D59F;
+    text-decoration: none;
+    font-weight: bold;
+}
+.article-list-content div.link a div {
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #713E00;
+    border-radius: 3px;
+}
