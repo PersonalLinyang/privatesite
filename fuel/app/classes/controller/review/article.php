@@ -30,7 +30,7 @@ class Controller_Review_Article extends Controller_App
 		}
 		$num_per_page = 20;
 		$data['article_list'] = Model_Article::GetArticlesByPage($page, $num_per_page, 1);
-		$data['total_page_number'] = Model_Enquete::GetTotalPageNumber($num_per_page, 1);
+		$data['total_page_number'] = Model_Article::GetTotalPageNumber($num_per_page, 1);
 		$data['page'] = $page;
 
 		//TDK

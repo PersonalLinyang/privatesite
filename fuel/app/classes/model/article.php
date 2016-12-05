@@ -49,7 +49,7 @@ class Model_Article extends Model
 	 */
 	public static function GetTotalPageNumber($num_per_page, $publish_flag) {
 		$total_page_number = 0;
-		$sql = 'SELECT count(*) count FROM t_article';
+		$sql = 'SELECT count(*) count FROM t_article ';
 		if($publish_flag) {
 			$sql .= 'WHERE publish_flag=1 ';
 		}

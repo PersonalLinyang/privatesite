@@ -28,7 +28,7 @@ class Controller_Review_Comment extends Controller_App
 		} else {
 			$page = 1;
 		}
-		$num_per_page = 5;
+		$num_per_page = 1;
 		$data['enquete_list'] = Model_Enquete::GetEnquetesByPage($page, $num_per_page, 1);
 		$data['total_page_number'] = Model_Enquete::GetTotalPageNumber($num_per_page, 1);
 		$data['page'] = $page;

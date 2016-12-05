@@ -122,7 +122,7 @@
 								<a href="/review/comment/?page=<?php echo $page - 1; ?>"><li class="long">前へ</li></a>
 								<a href="/review/comment/"><li>1</li></a>
 								<?php endif; ?>
-								<?php if($page > 5): ?>
+								<?php if($page > 4): ?>
 								<li>...</li>
 								<?php endif; ?>
 								<?php for($i = ($page - 2 > 2 ? $page - 2 : 2); $i < $page; $i++) : ?>
@@ -132,7 +132,7 @@
 								<?php for($i = $page + 1; $i <= (($page + 2) > ($total_page_number - 1) ? ($total_page_number - 1) : ($page + 2)); $i++) : ?>
 								<a href="/review/comment/?page=<?php echo $i; ?>"><li><?php echo $i; ?></li></a>
 								<?php endfor; ?>
-								<?php if($page + 4 < $total_page_number): ?>
+								<?php if($page + 3 < $total_page_number): ?>
 								<li>...</li>
 								<?php endif; ?>
 								<?php if($page < $total_page_number): ?>
