@@ -21,7 +21,7 @@
 	<?php foreach($article_list as $article) : ?>
 	<div class="parting-line"></div>
 	<div class="main-article">
-		<div class="article-list-image"><img src="/upload/review/<?php echo $article->id; ?>/thumb.jpg"></div>
+		<div class="article-list-image"><?php echo Asset::img('upload/article/' . $article->id . '/thumb.jpg');?></div>
 		<div class="article-list-content">
 			<div class="title">
 				<a href="/review/article/detail/<?php echo $article->id; ?>/">

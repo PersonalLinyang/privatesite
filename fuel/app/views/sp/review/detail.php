@@ -27,7 +27,7 @@
 			「<?php echo $article->site; ?>」から
 		</div>
 		<div class="review-content">
-			<?php echo $article->content; ?>
+			<?php echo str_replace('[%', '<img src="/assets/img/upload/article/' . $article->id . '/', str_replace('%]', '" />', $article->content)); ?>
 		</div>
 		<div class="caution">
 			原文リンク：<br/>
