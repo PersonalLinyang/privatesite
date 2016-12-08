@@ -31,7 +31,7 @@
 		</div>
 		<div class="caution">
 			原文リンク：<br/>
-			<a href="<?php echo $article->link; ?>">
+			<a target="_blank" href="<?php echo $article->link; ?>">
 				<?php echo strlen($article->link) > 45 ? substr($article->link, 0, 42) . '...' :  $article->link; ?>
 			</a>
 		</div>
