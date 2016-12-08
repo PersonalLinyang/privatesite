@@ -5,6 +5,7 @@
 
 /* レビュートップ情報(投稿時間、ユーザー)部分 */
 .review-top-info {
+    margin-top: 15px;
     font-size: 12px;
     text-align: right;
     padding-right: 5%;
@@ -87,4 +88,13 @@
     padding-bottom: 4px;
     background: #713E00;
     border-radius: 3px;
+}
+
+/* レビューコンテンツ部分 */
+.review-content img {
+    width: 80%;
+    padding-left: 10%;
+}
+.caution {
+    text-align: left;
 }
