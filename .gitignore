@@ -33,6 +33,6 @@ desktop.ini
 /fuel/app/config/crypt.php
 
 
-
+/public/assets/img/upload/
 /public/.htaccess
 /public/.htpasswd
