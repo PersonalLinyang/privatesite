@@ -17,14 +17,14 @@
 		<div class="main-area">
 			<div>
 				<div class="main-image">
-					<?php echo Asset::img('event/event-big_size_free.jpg');?>
+					<?php echo Asset::img('event/event-newyear_2016.jpg');?>
 				</div>
 				<div class="main-article">
 					<table class="main-article-table" padding="0">
 						<tr><td class="main-article-table-title" colspan="2">年末年始イベント　タンタンメン全品100円引き</td></tr>
 						<tr>
 							<th>開催期間</th>
-							<td>2016年12月15日～2017年1月15日</td>
+							<td><p>2016年12月15日～2017年1月15日</p></td>
 						</tr>
 						<tr>
 							<th>イベント内容</th>
@@ -57,7 +57,7 @@
 						<tr><td class="main-article-table-title" colspan="2">麺類全品大盛り無料サービス</td></tr>
 						<tr>
 							<th>開催期間</th>
-							<td>2016年11月1日～</td>
+							<td><p>2016年11月1日～</p></td>
 						</tr>
 						<tr>
 							<th>イベント内容</th>
@@ -88,7 +88,7 @@
 						<tr><td class="main-article-table-title" colspan="2">開店記念イベント　麺類全品500円</td></tr>
 						<tr>
 							<th>開催期間</th>
-							<td>2016年11月1日～2016年11月3日</td>
+							<td><p>2016年11月1日～2016年11月3日</p></td>
 						</tr>
 						<tr>
 							<th>イベント内容</th>
@@ -101,7 +101,7 @@
 						</tr>
 						<tr>
 							<th>対象商品</th>
-							<td>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</td>
+							<td><p>タンタンメン、みそタンタンメン、ラーメン、チャーシューメン、タンメン、サンマーメン、五目そば、みそラーメン</p></td>
 						</tr>
 					</table>
 				</div>

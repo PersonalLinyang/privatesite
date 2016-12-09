@@ -26,7 +26,7 @@
 				<div class="review-content">
 					<?php echo str_replace('[%', '<img src="/assets/img/upload/article/' . $article->id . '/', str_replace('%]', '" />', $article->content)); ?>
 				</div>
-				<div class="caution">原文リンク：<a href="<?php echo $article->link; ?>"><?php echo $article->link; ?></a></div>
+				<div class="caution">原文リンク：<a target="_blank" href="<?php echo $article->link; ?>"><?php echo $article->link; ?></a></div>
 			</div>
 		</div>
 		<?php echo $sidebar; ?>

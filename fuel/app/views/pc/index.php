@@ -23,6 +23,7 @@
 					<div class="image-slide-content">
 						<ul>
 							<li index="0"><?php echo Asset::img('main_visual/mv-tantanmen.jpg');?></li>
+							<li index="2"><?php echo Asset::img('main_visual/mv-newyear_2016.jpg');?></li>
 							<li index="1"><?php echo Asset::img('main_visual/mv-menu.jpg');?></li>
 						</ul>
 					</div>
