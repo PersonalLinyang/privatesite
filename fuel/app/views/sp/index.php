@@ -23,9 +23,9 @@
 	<div id="slider-pro" class="slider-pro">
 		<div class="sp-slides">
 			<div class="sp-slide"><?php echo Asset::img('main_visual/mv-tantanmen.jpg', array('class' => 'sp-image'));?></div>
+			<div class="sp-slide"><?php echo Asset::img('main_visual/mv-newyear_2016.jpg', array('class' => 'sp-image'));?></div>
 			<div class="sp-slide"><?php echo Asset::img('main_visual/mv-menu.jpg', array('class' => 'sp-image'));?></div>
-			<div class="sp-slide"><?php echo Asset::img('main_visual/mv-tantanmen.jpg', array('class' => 'sp-image'));?></div>
-			<div class="sp-slide"><?php echo Asset::img('main_visual/mv-menu.jpg', array('class' => 'sp-image'));?></div>
+
 		</div>
 	</div>
 

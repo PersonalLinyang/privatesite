@@ -17,7 +17,7 @@
 	
 	<div>
 		<div class="main-image">
-			<?php echo Asset::img('event/event-big_size_free.jpg');?>
+			<?php echo Asset::img('event/event-newyear_2016.jpg');?>
 		</div>
 		<div class="parting-line"></div>
 		<div class="main-article">
