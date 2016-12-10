@@ -11,6 +11,8 @@ class Model_Product extends Model
 	public $price_set;
 	public $start_date;
 	public $end_date;
+	public $image_list;
+	public $caution;
 
 	/* 
 	 * 大分類で商品を取得
@@ -52,6 +54,8 @@ class Model_Product extends Model
 				$product->price_set = $product_info['price_set'];
 				$product->start_date = $product_info['start_date'];
 				$product->end_date = $product_info['end_date'];
+				$product->image_list = $product_info['image_list'];
+				$product->caution = $product_info['caution'];
 
 				$products[$product_info['sub_type']]['product_list'][] = $product;
 			}
@@ -87,6 +91,8 @@ class Model_Product extends Model
 				$product->price_set = $product_info['price_set'];
 				$product->start_date = $product_info['start_date'];
 				$product->end_date = $product_info['end_date'];
+				$product->image_list = $product_info['image_list'];
+				$product->caution = $product_info['caution'];
 
 				$products[] = $product;
 			}
@@ -140,11 +146,11 @@ class Model_Product extends Model
 			}
 		}
 
-		$sql_set = "SELECT * FROM t_set WHERE set_group in (SELECT id FROM t_set_group) ";
+		$sql_set = "SELECT s.*, main.image_list main_image, sub.image_list sub_image FROM t_set s LEFT JOIN t_product main ON s.main_id = main.id LEFT JOIN t_product sub ON s.sub_id = sub.id WHERE s.set_group in (SELECT id FROM t_set_group) ";
 		if($sell_flag) {
-			$sql_set .= "AND start_date < :time_now AND (end_date > :time_now OR end_date IS NULL) ";
+			$sql_set .= "AND s.start_date < :time_now AND (s.end_date > :time_now OR s.end_date IS NULL) ";
 		}
-		$sql_set .= "ORDER BY start_date DESC, id ASC ";
+		$sql_set .= "ORDER BY s.start_date DESC, s.id ASC ";
 		$query_set = DB::query($sql_set);
 		$query_set->param('time_now', date('Y-m-d H:i:s'));
 		$result_set = $query_set->execute()->as_array();
@@ -154,7 +160,9 @@ class Model_Product extends Model
 				$sets[$set['set_group']]['set_list'][] = array(
 						'id' => $set['id'],
 						'main_id' => $set['main_id'],
+						'main_image' => $set['main_image'],
 						'sub_id' => $set['sub_id'],
+						'sub_image' => $set['sub_image'],
 						'set_name' => $set['set_name'],
 						'price' => $set['price'],
 						'start_date' => $set['start_date'],
