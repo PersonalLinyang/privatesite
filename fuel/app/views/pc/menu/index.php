@@ -17,7 +17,7 @@
 		<div class="main-area">
 			<div class="main-image">
 				<a href="/menu/staple/">
-					<?php echo Asset::img('menu/banner-tantanmen.jpg');?>
+					<?php echo Asset::img('menu/banner-staple.jpg');?>
 				</a>
 			</div>
 			<div class="main-image">

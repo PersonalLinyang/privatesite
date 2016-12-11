@@ -7,11 +7,9 @@
 	<meta name="keywords" content="<?php echo $keywords; ?>">
 	<link rel="canonical" href="<?php echo $canonical; ?>">
 	<?php echo Asset::css('pc/common.css'); ?>
-	<?php echo Asset::css('pc/event.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<?php echo Asset::js('pc/google-analytics.js'); ?>
 	<?php echo Asset::js('pc/common.js'); ?>
-	<?php echo Asset::js('pc/event.js'); ?>
 </head>
 <body class="body-common">
 	<?php echo $header; ?>

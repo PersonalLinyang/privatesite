@@ -15,15 +15,19 @@
 <body class="body-common">
 	<?php echo $header; ?>
 
-	<div class="main-article main-404">
-		<h2>誠に申し訳ございません！</h2>
-		<h2>お探しのページは<br/>見つかりませんでした。</h2>
-		<h2>サイト更新などによって<br/>URLが変更になったか、</h2>
-		<h2>URLが正しく入力されていない<br/>可能性があります。</h2>
-		<h2>お手数ですがメニューより<br/>お求めのページをお探しください。</h2>
+	<div class="main-image"><?php echo Asset::img('review/banner-review.jpg');?></div>
+
+	<div class="parting-line"></div>
+
+	<div class="main-article">
+		<h2>誠にありがとうございました。</h2>
+		<h2>タンタンメン本舗はこれからも</h2>
+		<h2>美味しい料理を捧げるために</h2>
+		<h2>一生懸命に頑張ります。</h2>
+		<h2>どうかよろしくお願いいたします！！</h2>
 		<div class="link-top"><a href="/">トップページへ戻る</a></div>
 	</div>
-	
+
 	<?php echo $footer; ?>
 </body>
 </html>

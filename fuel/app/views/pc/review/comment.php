@@ -24,7 +24,7 @@
 					<?php echo date('Y年m月d日', strtotime($enquete->create_date)); ?>&nbsp;&nbsp;&nbsp;
 					<?php echo $enquete->secrit_flag == '1' ? '匿名のお客' : $enquete->name; ?>様から
 				</div>
-				<div class="js-review-hidden hidden">
+				<div>
 					<table class="main-article-table">
 						<tr>
 							<th>ご来店日</th>

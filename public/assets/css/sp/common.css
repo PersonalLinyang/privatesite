@@ -1,0 +1,373 @@
+/* 共通bodyタグ */
+.body-common {
+	font-family: "メイリオ";
+	margin: 0px;
+	width: 100%;
+	font-size: 16px;
+}
+
+/* 共通ヘッダ区域 */
+header {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 70px;
+}
+
+/* 共通ヘッダメイン部分 */
+.header-area {
+    position: relative;
+    width: 100%;
+	height: 70px;
+}
+.header-area:before {
+    content:"";
+    display: block;
+    padding-top: 65px;
+}
+.header-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 5px;
+    right: 0;
+	max-height: 65px;
+	background-color: red;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 8px;
+	border-color: yellow;
+	vertical-align: center;
+	padding-top: 5px;
+}
+
+/* 共通ヘッダロゴ部分 */
+.header-logo {
+	float: left;
+	max-height: 44px;
+}
+.header-logo img {
+	max-width: 100%;
+	max-height: 44px;
+}
+
+/* 共通ヘッダボタン部分 */
+.header-button {
+	text-align: center;
+	float: right;
+	width: 45px;
+	max-height: 43px;
+}
+.header-button img {
+	width: 36px;
+	height: 35px;
+}
+
+/* 共通ヘッダサイトナビ部分 メインナビ */
+.header-navi {
+	width: 100%;
+	display: none;
+}
+.header-navi ul {
+	padding: 0px;
+	list-style-type: none;
+	background: red;
+	margin: 0px;
+	text-align: center;
+}
+.header-navi ul li {
+	background-color: #713E00;
+	color: #F4D59F;
+	font-weight: bold;
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: #D8D8D8;
+}
+.header-navi ul li:first-child {
+	border-top-width: 0px;
+}
+.header-navi ul li:last-child {
+	border-bottom-width: 0px;
+}
+.header-navi ul li a {
+	color: #F4D59F;
+	text-decoration: none;
+}
+.header-navi ul li div {
+	line-height: 30px;
+	width: 100%;
+	height: 100%;
+}
+
+/* 共通ヘッダサイトナビ部分 サブナビ */
+.header-sub-navi {
+	padding: 0px 0px;
+	width: 100%;
+}
+.header-sub-navi table {
+	width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.header-sub-navi table tr {
+}
+.header-sub-navi table tr td {
+    vertical-align: middle;
+    border-color: #713E00;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #F4D59F;
+}
+.header-sub-navi table tr td a {
+	color:#713E00;
+	text-decoration: none;
+}
+.header-sub-navi table tr td a div {
+	font-size: 14px;
+	line-height: 26px;
+}
+
+/* 共通ヘッダハイド影部分 */
+.header-shadow {
+    position: relative;
+    width: 100%;
+    max-height: 70px;
+}
+.header-shadow:before {
+    content:"";
+    display: block;
+    padding-top: 20%;
+}
+.header-shadow div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* メニュー灰色背景 */
+.overlay {
+	background: rgba(0, 0, 0, 0.5);;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 8000;
+	display: none;
+}
+
+/* 通常本文区域 道場部分 */
+.main-video {
+	position: relative;
+	width: 100%;
+}
+.main-video:before {
+    content:"";
+    display: block;
+    padding-top: 56.25%; /* 高さと幅の比を16:9に固定。9/16*100=56.25 */
+}
+.main-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* 通常本文区域 通常タイプ */
+.main-normal {
+	color: #713E00;
+	background: #F4D59F url(/assets/img/system/bg-log.png) repeat;
+	width: 100%;
+}
+
+.main-normal-title {
+	color: #F4D59F;
+	background-color: #713E00;
+	font-weight: bold;
+	vertical-align: top;
+	text-align: center;
+    user-select:none;
+    padding-top: 3%;
+}
+.main-normal-title img {
+}
+
+/* 通常本文区域 画像タイプ */
+.main-image {
+	width: 100%;
+    user-select:none;
+    line-height: 0px;
+}
+.main-image img {
+	width: 100%;
+}
+
+/* 通常本文区域 文章タイプ */
+.main-article {
+	color: #713E00;
+	background: #F4D59F url(/assets/img/system/bg-log.png) repeat;
+	width: 90%;
+	padding: 5%;
+}
+.main-article h2 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.main-article-table {
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #713E00;
+}
+.main-article-table tr {
+}
+.main-article-table th {
+	margin: 0px;
+	width: 80px;
+	vertical-align: middle;
+	background-color: #DDBB88;
+	border-color: #713E00;
+	border-style: solid;
+	border-width: 1px;
+	padding: 8px;
+}
+.main-article-table td {
+	margin: 0px;
+	vertical-align: top;
+	border-color: #713E00;
+	border-style: solid;
+	border-width: 1px;
+	padding: 8px;
+}
+.main-article-table td.main-article-table-title {
+	text-align: center;
+	background-color: #713E00;
+	color: #F4D59F;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.main-article-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.main-article-subtitle {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* 通常本文区域 ページャタイプ */
+.main-pager {
+	width: 100%;
+	text-align: center;
+}
+.main-pager table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+.main-pager table tr td {
+	background-color: #F4D59F;
+	border-color: #6E6E6E;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-style: solid;
+}
+.main-pager table tr td:first-child {
+	border-left-width: 0px;
+}
+.main-pager table tr td:last-child {
+	border-right-width: 0px;
+}
+.main-pager table tr td.active {
+	background-color: #DDBB88;
+}
+.main-pager table tr td.short {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.main-pager table tr td a {
+	text-decoration: none;
+	color: #713E00;
+}
+.main-pager table tr td a div {
+	width: 100%;
+	height: 100%;
+}
+
+/* 共通フッタ区域 */
+.footer-area {
+	background-color: red;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 8px;
+	border-color: yellow;
+	vertical-align: center;
+	padding-top: 3px;
+}
+
+/* 共通フッタロゴ部分 */
+.footer-logo {
+	margin: auto;
+	width: 80%;
+	height: 44px;
+	text-align: center;
+}
+.footer-logo img {
+	max-width: 100%;
+	max-height: 44px;
+}
+
+/* 分割線 */
+.parting-line {
+	width: 100%;
+	height: 3px;
+	background-color: #D8D8D8;
+	border-color: #6E6E6E;
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+/* 注意書き */
+.caution {
+	font-size: 12px;
+	text-align: center;
+}
+
+/* 完了ページトップページリンク */
+.link-top {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.link-top a {
+	color: #F4D59F;
+	background-color: #713E00;
+	font-weight: bold;
+	padding: 4px 50px;
+	border-radius: 16px;
+	text-decoration: none;
+}

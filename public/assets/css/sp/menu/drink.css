@@ -1,0 +1,37 @@
+/*
+ * お飲物専用
+ */
+
+/* お飲物 リスト */
+.table-drink {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table-drink tr td.td-image {
+    width: 25%;
+}
+.table-drink tr td.td-image img {
+    border-radius: 35px;
+    border-style: inset;
+    border-width: 5px;
+    width: 60px;
+    border-color: #FFFF00;
+}
+.table-drink tr td.td-list {
+    width: 70%;
+    padding-left: 5%;
+}
+.table-drink tr td.td-list table.table-drink-list {
+    width: 100%;
+}
+.table-drink tr td.td-list table.table-drink-list tr td.td-title {
+    font-weight: bold;
+    padding: 0px;
+}
+.table-drink tr td.td-list table.table-drink-list tr td.td-price {
+    text-align: right;
+    padding: 0px;
+}

@@ -28,7 +28,11 @@ class Controller_Review_Article extends Controller_App
 		} else {
 			$page = 1;
 		}
-		$num_per_page = 10;
+		if($this->template == 'pc') {
+			$num_per_page = 10;
+		} else {
+			$num_per_page = 5;
+		}
 		$data['article_list'] = Model_Article::GetArticlesByPage($page, $num_per_page, 1);
 		$data['total_page_number'] = Model_Article::GetTotalPageNumber($num_per_page, 1);
 		$data['page'] = $page;

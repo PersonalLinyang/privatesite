@@ -21,7 +21,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('menu/banner-tantanmen.jpg');?></div>
+			<div class="main-image"><?php echo Asset::img('menu/banner-staple.jpg');?></div>
 			<div class="main-article">
 				<div class="main-article-title">麺類</div>
 				<div class="main-article-subtitle">タンタンメン</div>
