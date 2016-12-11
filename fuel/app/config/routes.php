@@ -1,7 +1,14 @@
 <?php
 return array(
-	'_root_'  => 'welcome/index',  // The default route
-	'_404_'   => 'welcome/404',    // The main 404 route
+	'_root_'  => 'index',  // The default route
+	'_404_'   => '404',    // The main 404 route
 	
-	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
+	//indexページ
+	'menu'    => 'menu/index',
+	'guide'   => 'guide/index',
+	'event'   => 'event/index',
+	'review'  => 'review/index',
+	
+	//メニュー
+	'menu/single_set'   => 'menu/singleset',
 );

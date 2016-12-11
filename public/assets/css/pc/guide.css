@@ -1,0 +1,37 @@
+#map {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#map-link {
+	line-height: 40px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #713E00;
+	font-weight: bold;
+	background: #FFCC66;
+	border-radius: 3px;
+	border-style: outset;
+	border-width: 3px;
+	border-top-color: #FFFFCC;
+	border-bottom-color: #FF9900;
+	border-left-color: #FFFFCC;
+	border-right-color: #FF9900;
+    user-select:none;
+}
+#map-link:hover {
+	background-color: #713E00;
+	border-style: solid;
+	border-color: #713E00;
+	color: #F4D59F;
+}
+
+a[rel=colorbox-guide] {
+	outline: none;
+}

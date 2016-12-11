@@ -1,0 +1,111 @@
+/* 
+ * 単品・定食専用
+ */
+
+/* 単品・定食 リスト */
+.list-single_set {
+	list-style-type: none;
+	width: 580px;
+	overflow: hidden;
+}
+.list-single_set li {
+	width: 290px;
+	height: 140px;
+	float: left;
+}
+.list-single_set li div.div-img {
+	position:relative;
+	float: left;
+	width: 120px;
+	height: 140px;
+}
+.list-single_set li div.div-img img {
+	border-radius: 55px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #FFFF00;
+}
+.list-single_set li div.div-img a {
+	position:absolute;
+	top: 5px;
+	left: 5px;
+	border-radius: 55px;
+    width:100px;
+    height:100px;
+    outline: none;
+}
+.list-single_set li div.div-img div.div-img-more {
+	position: absolute;
+	z-index: 3;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100px;
+	height: 100px;
+	border-radius: 55px;
+	top: 0px;
+	left: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size:12px;
+	display: none;
+}
+.list-single_set li div.div-img div.div-img-more div.icon {
+	width: 68px;
+	text-align: center;
+	margin-left: 16px;
+	margin-top:16px;
+}
+.list-single_set li div.div-img div.div-img-more div.icon img {
+	width: 40px;
+	height: 40px;
+	border: 0px;
+}
+.list-single_set li div.div-img div.div-img-more div.text {
+	width: 68px;
+	text-align: center;
+	margin-left: 16px;
+}
+.list-single_set li div.div-img div.colorbox-hide {
+	display: none;
+}
+.list-single_set li div.div-img div.multi-photo-mark {
+	background-color: red;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 12px;
+	position: absolute;
+	z-index: 4;
+	top: 0px;
+	left: 0px;
+	padding: 6px;
+	border-radius: 21px;
+	transform: rotate(-15deg);
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+}
+.list-single_set li div.div-info {
+	float: left;
+	width: 148px;
+	height: 140px;
+}
+.list-single_set li div.div-info div.div-title {
+	font-weight: bold;
+}
+.list-single_set li div.div-info div.div-caution {
+	font-size: 12px;
+	line-height: 14px;
+}
+.list-single_set li div.div-info table.table-info {
+	border-spacing: 0;
+	width: 148px;
+}
+.list-single_set li div.div-info table.table-info tr th {
+	margin: 0px;
+	height: 40px;
+}
+.list-single_set li div.div-info table.table-info tr td {
+	margin: 0px;
+}
+.list-single_set li div.div-info table.table-info tr td.td-price {
+	text-align: right;
+}

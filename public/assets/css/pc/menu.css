@@ -1,0 +1,18 @@
+/*
+ * メニュー共通
+ */
+
+/* 値段数字部分 */
+.big-price {
+	font-weight: bold;
+	font-size: 26px;
+	color: red;
+	text-shadow:#FFFFFF 2px 0 0,#FFFFFF 0 2px 0,#FFFFFF -2px 0 0,#FFFFFF 0 -2px 0;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+	text-shadow:#FFFFFF 2px 0 0,#FFFFFF 0 2px 0,#FFFFFF -2px 0 0,#FFFFFF 0 -2px 0;
+}

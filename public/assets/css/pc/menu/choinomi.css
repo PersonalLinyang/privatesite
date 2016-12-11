@@ -1,0 +1,122 @@
+/*
+ * ちょい飲み専用
+ */
+
+/* ちょい飲み 価格部分 */
+.list-choinomi-price {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 30px;
+	padding-left: 120px;
+}
+
+/* ちょい飲み お酒リスト部分 */
+.list-choinomi-drink {
+	list-style-type: none;
+	width: 580px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.list-choinomi-drink li {
+	width: 240px;
+	float: left;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+/* ちょい飲み おつまみリスト部分 */
+.list-choinomi-food {
+	list-style-type: none;
+	width: 570px;
+	overflow: hidden;
+}
+.list-choinomi-food li {
+	width: 150px;
+	height: 160px;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 20px;
+	font-weight: bold;
+}
+.list-choinomi-food li div.div-img {
+	position:relative;
+	height: 115px;
+	overflow: hidden;
+	padding-left: 20px;
+}
+.list-choinomi-food li div.div-img img {
+	border-radius: 55px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #FFFF00;
+}
+.list-choinomi-food li div.div-img a {
+	position:absolute;
+	top: 5px;
+	left: 25px;
+	border-radius: 55px;
+    width:100px;
+    height:100px;
+    outline: none;
+}
+.list-choinomi-food li div.div-img div.div-img-more {
+	position: absolute;
+	z-index: 3;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100px;
+	height: 100px;
+	border-radius: 55px;
+	top: 0px;
+	left: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size:12px;
+	display: none;
+}
+.list-choinomi-food li div.div-img div.div-img-more div.icon {
+	width: 68px;
+	text-align: center;
+	margin-left: 16px;
+	margin-top:16px;
+}
+.list-choinomi-food li div.div-img div.div-img-more div.icon img {
+	width: 40px;
+	height: 40px;
+	border: 0px;
+}
+.list-choinomi-food li div.div-img div.div-img-more div.text {
+	width: 68px;
+	text-align: center;
+	margin-left: 16px;
+}
+.list-choinomi-food li div.div-img div.colorbox-hide {
+	display: none;
+}
+.list-choinomi-food li div.div-img div.multi-photo-mark {
+	background-color: red;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 12px;
+	position: absolute;
+	z-index: 4;
+	top: 0px;
+	left: 20px;
+	padding: 6px;
+	border-radius: 21px;
+	transform: rotate(-15deg);
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+}
+.list-choinomi-food li div.div-info {
+}
+.list-choinomi-food li div.div-info div.div-title {
+	font-weight: bold;
+}
+.list-choinomi-food li div.div-info div.div-caution {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+}

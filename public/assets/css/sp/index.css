@@ -1,0 +1,35 @@
+/* 当店カレンダー関連 */
+.table-calendar {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table-calendar tr {
+}
+.table-calendar th {
+    vertical-align: middle;
+    background-color: #DDBB88;
+    border-color: #713E00;
+    border-style: solid;
+    border-width: 1px;
+}
+.table-calendar td {
+    vertical-align: middle;
+    border-color: #713E00;
+    border-style: solid;
+    border-width: 1px;
+}
+.table-calendar td.table-calendar-title {
+    background-color: #713E00;
+    color: #F4D59F;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.workday {
+    font-weight: bold;
+    background-size: 100%;
+}

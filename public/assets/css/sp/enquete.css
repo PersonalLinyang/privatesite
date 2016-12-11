@@ -1,0 +1,185 @@
+/* 注意書き調整 */
+.caution {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+/* bold文字 */
+.type {
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 32px;
+}
+.sub_type {
+    font-weight: bold;
+    margin-left: 5px;
+}
+.level_title {
+    font-weight: bold;
+    line-height: 32px;
+}
+
+/* 拡張ボタン通用 */
+.lbl_openbutton {
+    padding: 0px 3px;
+    color: #713E00;
+    font-weight: bold;
+    font-size: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #713E00;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+    user-select:none;
+}
+
+/* チェックボックス通用 */
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"] + .lbl_checkbox {
+    background-color: #DDBB88;
+    background-image: url(/assets/img/system/check-btn.png);
+    background-repeat:no-repeat;
+    background-position: 6px 0px;
+    display: block;
+    color: #713E00;
+    padding-top: 3px;
+    padding-left: 32px;
+    padding-right: 12px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    border: 2px solid #713E00;
+    box-shadow: 0 2px #cacaca;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select:none;
+}
+input[type="checkbox"] + .active {
+    background-image: url(/assets/img/system/check-btn-active.png);
+}
+
+/* 単行テキストボックス通用 */
+input[type="text"] {
+    height: 23px;
+    width: 98%;
+    border-radius: 5px;
+}
+
+/* 複数行テキストボックス通用 */
+textarea {
+    resize: none;
+    width: 98%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+/* ラジオボタン通用 */
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + .rdo_star {
+    user-select:none;
+}
+
+/* お名前入力レーアウト調整 */
+.div_name {
+    padding-top: 5px;
+}
+#txt_name {
+    margin-top: 10px;
+}
+
+/* 星評価リスト */
+.td_level_list ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+.td_level_list ul li {
+    float: left;
+    padding: 2px;
+}
+.td_level_list ul li:first-child {
+    width: 126px;
+}
+.td_level_list ul li img {
+    cursor: pointer;
+}
+
+/* 注文料理リスト */
+.td_order_list ul {
+    list-style-type: none;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+/* 二列リスト */
+.list_col2 li {
+    padding: 2px;
+}
+
+/* 三列リスト */
+.list_col3 li {
+    padding: 2px;
+}
+
+/* 単品・定食リスト */
+.set_list li {
+    padding: 2px;
+}
+
+/* 単品・定食リスト */
+.single_list li {
+    padding: 2px;
+}
+.single_list li.single_name {
+    font-weight: bold;
+}
+
+/* タイトル */
+#txt_title {
+}
+
+/* フォーム提出ボタン */
+.div_submit {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.div_submit .lbl_submit {
+    padding: 5px 100px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #713E00;
+    box-shadow: 0 2px #cacaca;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select:none;
+    color: #F4D59F;
+    background-color: #713E00;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #713E00;
+}
+
+/* 完了ページトップページリンク */
+.link_top {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.link_top a {
+    color: #713E00;
+    font-weight: bold;
+    background-color: #DDBB88;
+    padding: 4px 50px;
+    border-radius: 16px;
+    text-decoration: none;
+}

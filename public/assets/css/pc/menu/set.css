@@ -1,0 +1,169 @@
+/* 
+ * 当店セット専用
+ */
+
+/* 当店セット リスト */
+.list-set {
+	list-style-type: none;
+	width: 560px;
+	padding-left: 0px;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 10px;
+}
+.list-set li {
+	width: 580px;
+	height: 140px;
+	overflow: hidden;
+}
+/* メイン画像 */
+.list-set li div.div-main-img {
+	position:relative;
+	float: left;
+	width: 116px;
+	height: 140px;
+}
+.list-set li div.div-main-img img {
+	border-radius: 55px;
+	border-style: inset;
+	border-width: 5px;
+	border-color: #FFFF00;
+}
+.list-set li div.div-main-img a {
+	position:absolute;
+	top: 5px;
+	left: 5px;
+	border-radius: 55px;
+    width:100px;
+    height:100px;
+    outline: none;
+}
+.list-set li div.div-main-img div.div-img-more {
+	position: absolute;
+	z-index: 3;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100px;
+	height: 100px;
+	border-radius: 55px;
+	top: 0px;
+	left: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size:12px;
+	display: none;
+}
+.list-set li div.div-main-img div.div-img-more div.icon {
+	width: 68px;
+	text-align: center;
+	margin-left: 16px;
+	margin-top:16px;
+}
+.list-set li div.div-main-img div.div-img-more div.icon img {
+	width: 40px;
+	height: 40px;
+	border: 0px;
+}
+.list-set li div.div-main-img div.div-img-more div.text {
+	width: 68px;
+	text-align: center;
+	margin-left: 16px;
+}
+.list-set li div.div-main-img div.colorbox-hide {
+	display: none;
+}
+.list-set li div.div-main-img div.multi-photo-mark {
+	background-color: red;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 12px;
+	position: absolute;
+	z-index: 4;
+	top: 0px;
+	left: 0px;
+	padding: 6px;
+	border-radius: 21px;
+	transform: rotate(-15deg);
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+}
+/* プラスマーク */
+.list-set li div.div-plus {
+	float: left;
+	width: 18px;
+	height: 140px;
+	padding-top: 47px;
+}
+/* サブ画像 */
+.list-set li div.div-sub-img {
+	position:relative;
+	float: left;
+	width: 96px;
+	height: 140px;
+	padding-top: 10px;
+}
+.list-set li div.div-sub-img img {
+	width: 80px;
+	border-radius: 44px;
+	border-style: inset;
+	border-width: 4px;
+	border-color: #FFFF00;
+}
+.list-set li div.div-sub-img a {
+	position:absolute;
+	top: 14px;
+	left: 4px;
+	border-radius: 44px;
+    width:80px;
+    height:80px;
+    outline: none;
+    cursor: pointer;
+    user-select:none;
+}
+.list-set li div.div-sub-img div.div-img-more {
+	position: absolute;
+	z-index: 3;
+	background: rgba(0, 0, 0, 0.5);
+	width: 80px;
+	height: 80px;
+	border-radius: 44px;
+	top: 0px;
+	left: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size:12px;
+	display: none;
+}
+.list-set li div.div-sub-img div.div-img-more div.icon {
+	width: 48px;
+	text-align: center;
+	margin-left: 16px;
+	margin-top:10px;
+}
+.list-set li div.div-sub-img div.div-img-more div.icon img {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+}
+.list-set li div.div-sub-img div.div-img-more div.text {
+	width: 68px;
+	text-align: center;
+	margin-left: 6px;
+}
+.list-set li div.div-sub-img div.colorbox-hide {
+	display: none;
+}
+.list-set li div.div-info {
+	float: left;
+	width: 330px;
+	height: 140px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.list-set li div.div-info div.div-title {
+	padding-left: 20px;
+	font-weight: bold;
+}
+.list-set li div.div-info div.div-price {
+	text-align: right;
+}
