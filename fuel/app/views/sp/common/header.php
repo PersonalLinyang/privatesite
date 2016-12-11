@@ -4,11 +4,11 @@
 			<div class="header-logo">
 				<a href="/" class="main-navi-link"><?php echo Asset::img('system/logo.png'); ?></a>
 			</div>
-			<div class="header-button">
-				<a href="tel:045-294-9045"><?php echo Asset::img('system/header_tel_btn.png'); ?></a>
-			</div>
 			<div class="header-button ja-navi-main">
 				<?php echo Asset::img('system/header_menu_btn.png'); ?>
+			</div>
+			<div class="header-button">
+				<a href="tel:045-294-9045"><?php echo Asset::img('system/header_tel_btn.png'); ?></a>
 			</div>
 		</div>
 		<div class="parting-line"></div>
