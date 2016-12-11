@@ -1,11 +1,11 @@
-$(function() {
-    $('[rel^=colorbox-').colorbox({
+$(document).ready(function(){
+    $("a[rel^=colorbox-]").colorbox({
         maxWidth: "750px",
         maxHeight: "550px",
         opacity: 0.7
     });
     
-    $('[rel^=colorbox-').hover(function(){
+    $('a[rel^=colorbox-]').hover(function(){
         $(this).find('.div-img-more').fadeIn();
     }, function(){
         $(this).find('.div-img-more').fadeOut();
@@ -18,8 +18,8 @@ $(function() {
     });
     
     $('.colorbox-visual').click(function(){
-        if($(this).closest('li').find('[rel^=colorbox-').length > 0) {
-            $(this).closest('li').find('[rel^=colorbox-')[0].click();
+        if($(this).closest('li').find('a[rel^=colorbox-]').length > 0) {
+            $(this).closest('li').find('a[rel^=colorbox-]')[0].click();
         }
     });
 });
