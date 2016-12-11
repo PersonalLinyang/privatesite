@@ -1,8 +1,9 @@
 #map {
-	width: 600px;
-	height: 500px;
+	width: 400px;
+	height: 300px;
 	margin: auto;
-	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #map-link {
@@ -29,4 +30,8 @@
 	border-style: solid;
 	border-color: #713E00;
 	color: #F4D59F;
+}
+
+a[rel=colorbox-guide] {
+	outline: none;
 }
