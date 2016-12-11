@@ -43,12 +43,12 @@
 		<table>
 			<tr>
 				<?php if($page > 1): ?>
-				<td><a href="/review/comment/"><div>最初へ</div></a></td>
-				<td><a href="/review/comment/?page=<?php echo $page - 1; ?>"><div>前へ</div></a></td>
+				<td><a href="/review/article/"><div>最初へ</div></a></td>
+				<td><a href="/review/article/?page=<?php echo $page - 1; ?>"><div>前へ</div></a></td>
 				<?php endif; ?>
 				<?php if($page < $total_page_number): ?>
-				<td><a href="/review/comment/?page=<?php echo $page + 1; ?>"><div>次へ</div></a></td>
-				<td><a href="/review/comment/?page=<?php echo $total_page_number; ?>"><div>最後へ</div></a></td>
+				<td><a href="/review/article/?page=<?php echo $page + 1; ?>"><div>次へ</div></a></td>
+				<td><a href="/review/article/?page=<?php echo $total_page_number; ?>"><div>最後へ</div></a></td>
 				<?php endif; ?>
 			</tr>
 		</table>
