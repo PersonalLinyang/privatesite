@@ -75,6 +75,7 @@
     color: #FFFFFF;
     font-weight: bold;
     font-size:12px;
+    display: none;
 }
 .list-choinomi-food li div.div-img div.div-img-more div.icon {
     width: 68px;
