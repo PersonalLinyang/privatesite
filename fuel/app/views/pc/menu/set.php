@@ -21,7 +21,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('menu/banner/banner-set.jpg');?></div>
+			<div class="main-image"><?php echo Asset::img('menu/banner-set.jpg');?></div>
 			<div class="main-article">
 				<?php foreach($set_list as $set_group) : ?>
 				<div class="main-article-title"><?php echo $set_group['group_name']; ?></div>

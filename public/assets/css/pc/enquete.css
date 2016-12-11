@@ -168,6 +168,11 @@ input[type="radio"] + .rdo_star {
 	width: 76px;
 	padding: 2px;
 }
+.single_list li.long {
+	float: left;
+	width: 156px;
+	padding: 2px;
+}
 .single_list li.single_name {
 	width: 256px;
 	font-weight: bold;

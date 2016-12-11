@@ -164,6 +164,7 @@
 											<li class="single_name">
 												<?php echo $single->name; ?>
 											</li>
+											<?php if($single->price_set) : ?>
 											<li>
 												<?php if(in_array('tp' . $single->id, $post_data['order_list'])) : ?>
 												<input id="chk_order_tp<?php echo $single->id; ?>" type="checkbox" name="order_list[]" value="tp<?php echo $single->id; ?>" checked />
@@ -182,6 +183,17 @@
 												<label for="chk_order_ts<?php echo $single->id; ?>" class="lbl_checkbox">定食</label>
 												<?php endif; ?>
 											</li>
+											<?php else: ?>
+											<li class="long">
+												<?php if(in_array('tp' . $single->id, $post_data['order_list'])) : ?>
+												<input id="chk_order_tp<?php echo $single->id; ?>" type="checkbox" name="order_list[]" value="tp<?php echo $single->id; ?>" checked />
+												<label for="chk_order_tp<?php echo $single->id; ?>" class="lbl_checkbox active">単品</label>
+												<?php else : ?>
+												<input id="chk_order_tp<?php echo $single->id; ?>" type="checkbox" name="order_list[]" value="tp<?php echo $single->id; ?>" />
+												<label for="chk_order_tp<?php echo $single->id; ?>" class="lbl_checkbox">単品</label>
+												<?php endif; ?>
+											</li>
+											<?php endif; ?>
 											<?php endforeach; ?>
 										</ul>
 									</div>

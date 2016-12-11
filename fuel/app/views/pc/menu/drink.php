@@ -8,6 +8,7 @@
 	<link rel="canonical" href="<?php echo $canonical; ?>">
 	<?php echo Asset::css('pc/common.css'); ?>
 	<?php echo Asset::css('pc/menu.css'); ?>
+	<?php echo Asset::css('pc/menu/drink.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<?php echo Asset::js('pc/google-analytics.js'); ?>
 	<?php echo Asset::js('pc/common.js'); ?>
@@ -16,7 +17,7 @@
 	<?php echo $header; ?>
 	<div class="body-area">
 		<div class="main-area">
-			<div class="main-image"><?php echo Asset::img('menu/banner/banner-drink.jpg');?></div>
+			<div class="main-image"><?php echo Asset::img('menu/banner-drink.jpg');?></div>
 			<div class="main-article">
 				<?php foreach($drink_list as $sub_type_id => $drink_type) : ?>
 				<div class="main-article-title"><?php echo $drink_type['sub_type_name']; ?></div>
@@ -26,7 +27,7 @@
 							<td class="td-image">
 								<?php 
 									try {
-										echo Asset::img('menu/product/img_st' . $sub_type_id . '.jpg');
+										echo Asset::img('upload/menu/thumb/img_st' . $sub_type_id . '.jpg');
 									} catch(Exception $e) {
 										echo Asset::img('system/img_product_nofound.jpg');
 									}
