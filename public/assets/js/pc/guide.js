@@ -26,7 +26,7 @@ $(document).ready(function() {
   }); */
 
   //当店写真Colorbox
-  $('[rel^=colorbox-').colorbox({
+  $('a[rel^=colorbox-]').colorbox({
     maxWidth: "750px",
     maxHeight: "550px",
     opacity: 0.7
