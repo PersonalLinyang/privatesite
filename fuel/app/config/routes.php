@@ -10,6 +10,5 @@ return array(
 	'review'  => 'review/index',
 	
 	//メニュー
-	'menu/noodle_rice'  => 'menu/noodlerice',
 	'menu/single_set'   => 'menu/singleset',
 );

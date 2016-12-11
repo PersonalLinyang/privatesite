@@ -3,29 +3,29 @@
  */
 
 /* 麺類・ご飯類 リスト */
-.list-noodle_rice {
+.list-staple {
 	list-style-type: none;
 	width: 580px;
 	overflow: hidden;
 }
-.list-noodle_rice li {
+.list-staple li {
 	width: 290px;
 	height: 140px;
 	float: left;
 }
-.list-noodle_rice li div.div-img {
+.list-staple li div.div-img {
 	position:relative;
 	float: left;
 	width: 120px;
 	height: 140px;
 }
-.list-noodle_rice li div.div-img img {
+.list-staple li div.div-img img {
 	border-radius: 55px;
 	border-style: inset;
 	border-width: 5px;
 	border-color: #FFFF00;
 }
-.list-noodle_rice li div.div-img a {
+.list-staple li div.div-img a {
 	position:absolute;
 	top: 5px;
 	left: 5px;
@@ -34,7 +34,7 @@
     height:100px;
     outline: none;
 }
-.list-noodle_rice li div.div-img div.div-img-more {
+.list-staple li div.div-img div.div-img-more {
 	position: absolute;
 	z-index: 3;
 	background: rgba(0, 0, 0, 0.5);
@@ -48,26 +48,26 @@
 	font-size:12px;
 	display: none;
 }
-.list-noodle_rice li div.div-img div.div-img-more div.icon {
+.list-staple li div.div-img div.div-img-more div.icon {
 	width: 68px;
 	text-align: center;
 	margin-left: 16px;
 	margin-top:16px;
 }
-.list-noodle_rice li div.div-img div.div-img-more div.icon img {
+.list-staple li div.div-img div.div-img-more div.icon img {
 	width: 40px;
 	height: 40px;
 	border: 0px;
 }
-.list-noodle_rice li div.div-img div.div-img-more div.text {
+.list-staple li div.div-img div.div-img-more div.text {
 	width: 68px;
 	text-align: center;
 	margin-left: 16px;
 }
-.list-noodle_rice li div.div-img div.colorbox-hide {
+.list-staple li div.div-img div.colorbox-hide {
 	display: none;
 }
-.list-noodle_rice li div.div-img div.multi-photo-mark {
+.list-staple li div.div-img div.multi-photo-mark {
 	background-color: red;
 	color: #FFFFFF;
 	font-size: 12px;
@@ -83,21 +83,21 @@
 	border-color: #FFFFFF;
 	border-width: 1px;
 }
-.list-noodle_rice li div.div-info {
+.list-staple li div.div-info {
 	float: left;
 	width: 148px;
 	height: 140px;
 	line-height: 30px;
 	margin-top: 10px;
 }
-.list-noodle_rice li div.div-info div.div-title {
+.list-staple li div.div-info div.div-title {
 	font-weight: bold;
 }
-.list-noodle_rice li div.div-info div.div-caution {
+.list-staple li div.div-info div.div-caution {
 	font-size: 12px;
 	line-height: 14px;
 }
-.list-noodle_rice li div.div-info div.div-price {
+.list-staple li div.div-info div.div-price {
 	text-align: right;
 }
 

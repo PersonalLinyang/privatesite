@@ -16,28 +16,28 @@
 	<div class="body-area">
 		<div class="main-area">
 			<div class="main-image">
-				<a href="/menu/noodle_rice/">
-					<?php echo Asset::img('menu/banner/banner-tantanmen.jpg');?>
+				<a href="/menu/staple/">
+					<?php echo Asset::img('menu/banner-tantanmen.jpg');?>
 				</a>
 			</div>
 			<div class="main-image">
 				<a href="/menu/set/">
-					<?php echo Asset::img('menu/banner/banner-set.jpg');?>
+					<?php echo Asset::img('menu/banner-set.jpg');?>
 				</a>
 			</div>
 			<div class="main-image">
 				<a href="/menu/single_set/">
-					<?php echo Asset::img('menu/banner/banner-single_set.jpg');?>
+					<?php echo Asset::img('menu/banner-single_set.jpg');?>
 				</a>
 			</div>
 			<div class="main-image">
 				<a href="/menu/choinomi/">
-					<?php echo Asset::img('menu/banner/banner-choinomi.jpg');?>
+					<?php echo Asset::img('menu/banner-choinomi.jpg');?>
 				</a>
 			</div>
 			<div class="main-image">
 				<a href="/menu/drink/">
-					<?php echo Asset::img('menu/banner/banner-drink.jpg');?>
+					<?php echo Asset::img('menu/banner-drink.jpg');?>
 				</a>
 			</div>
 		</div>

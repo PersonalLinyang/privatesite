@@ -187,6 +187,9 @@ class Controller_Review_Enquete extends Controller_App
 		//ご飯類リスト取得
 		$data['rice_list'] = Model_Product::GetProductsBySubType(2, 3, 1);
 
+		//餃子リスト取得
+		$data['dumpling_list'] = Model_Product::GetProductsBySubType(6, 12, 1);
+
 		//タンタンメンリスト取得
 		$data['set_list'] = Model_Product::GetSets(1);
 

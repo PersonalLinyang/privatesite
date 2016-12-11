@@ -254,6 +254,8 @@ class Model_Product extends Model
 				$product->price_set = $product_info['price_set'];
 				$product->start_date = $product_info['start_date'];
 				$product->end_date = $product_info['end_date'];
+				$product->image_list = $product_info['image_list'];
+				$product->caution = $product_info['caution'];
 
 				$products[] = $product;
 			}

@@ -2,7 +2,7 @@
 	<div>
 		<ul>
 			<li class="main"><a href="/menu/">メニュー</a></li>
-			<li class="sub"><a href="/menu/noodle_rice/">麺類・ご飯類</a></li>
+			<li class="sub"><a href="/menu/staple/">主食</a></li>
 			<li class="sub"><a href="/menu/set/">当店セット</a></li>
 			<li class="sub"><a href="/menu/single_set/">単品・定食</a></li>
 			<li class="sub"><a href="/menu/choinomi/">ちょい飲み</a></li>

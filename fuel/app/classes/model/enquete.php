@@ -89,6 +89,7 @@ class Model_Enquete extends Model
 				$order_list['tp_list'] = Model_Product::GetProductNamesByIdArray($tp_list);
 				//定食リスト取得
 				$ts_name_list = Model_Product::GetProductNamesByIdArray($ts_list);
+				$order_list['ts_list'] = array();
 				foreach($ts_name_list as $ts_name) {
 					$order_list['ts_list'][] = $ts_name . '定食';
 				}
