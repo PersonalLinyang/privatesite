@@ -118,6 +118,25 @@
 						</div>
 						<div>
 							<label class="lbl_openbutton">ー</label>
+							<span class="type">餃子</span>
+							<div class="open_area">
+								<ul class="list_col3">
+									<?php foreach($dumpling_list as $dumpling) : ?>
+									<li>
+										<?php if(in_array('nr' . $dumpling->id, $post_data['order_list'])) : ?>
+										<input id="chk_order_nr<?php echo $dumpling->id; ?>" type="checkbox" name="order_list[]" value="nr<?php echo $dumpling->id; ?>" checked>
+										<label for="chk_order_nr<?php echo $dumpling->id; ?>" class="lbl_checkbox active"><?php echo $dumpling->name; ?></label>
+										<?php else : ?>
+										<input id="chk_order_nr<?php echo $dumpling->id; ?>" type="checkbox" name="order_list[]" value="nr<?php echo $dumpling->id; ?>">
+										<label for="chk_order_nr<?php echo $dumpling->id; ?>" class="lbl_checkbox"><?php echo $dumpling->name; ?></label>
+										<?php endif; ?>
+									</li>
+									<?php endforeach; ?>	
+								</ul>
+							</div>
+						</div>
+						<div>
+							<label class="lbl_openbutton">ー</label>
 							<span class="type">セット</span>
 							<div class="open_area">
 								<ul class="set_list">
@@ -163,6 +182,7 @@
 										<label for="chk_order_tp<?php echo $single->id; ?>" class="lbl_checkbox">単品</label>
 										<?php endif; ?>
 									</li>
+									<?php if($single->price_set) : ?>
 									<li>
 										<?php if(in_array('ts' . $single->id, $post_data['order_list'])) : ?>
 										<input id="chk_order_ts<?php echo $single->id; ?>" type="checkbox" name="order_list[]" value="ts<?php echo $single->id; ?>" checked />
@@ -172,6 +192,7 @@
 										<label for="chk_order_ts<?php echo $single->id; ?>" class="lbl_checkbox">定食</label>
 										<?php endif; ?>
 									</li>
+									<?php endif; ?>
 									<?php endforeach; ?>
 								</ul>
 							</div>

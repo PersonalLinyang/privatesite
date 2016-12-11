@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<?php echo Asset::css('sp/common.css'); ?>
 	<?php echo Asset::css('sp/menu.css'); ?>
+	<?php echo Asset::css('sp/menu/drink.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<?php echo Asset::js('sp/google-analytics.js'); ?>
 	<?php echo Asset::js('sp/common.js'); ?>
@@ -16,7 +17,7 @@
 <body class="body-common">
 	<?php echo $header; ?>
 
-	<div class="main-image"><?php echo Asset::img('menu/banner/banner-drink.jpg');?></div>
+	<div class="main-image"><?php echo Asset::img('menu/banner-drink.jpg');?></div>
 
 	<?php foreach($drink_list as $sub_type_id => $drink_type) : ?>
 	<div class="parting-line"></div>
@@ -28,7 +29,7 @@
 					<td class="td-image">
 						<?php 
 							try {
-								echo Asset::img('menu/product/img_st' . $sub_type_id . '.jpg');
+								echo Asset::img('upload/menu/thumb/img_st' . $sub_type_id . '.jpg');
 							} catch(Exception $e) {
 								echo Asset::img('system/img_product_nofound.jpg');
 							}

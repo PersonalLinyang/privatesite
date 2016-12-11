@@ -21,7 +21,7 @@
 					<table>
 						<tr>
 							<td><a href="/menu/" class="main-navi-link"><div>メニュー一覧</div></a></td>
-							<td><a href="/menu/noodle_rice/" class="sub-navi-link"><div>麺類・ご飯類</div></a></td>
+							<td><a href="/menu/staple/" class="sub-navi-link"><div>主食</div></a></td>
 							<td><a href="/menu/set/" class="sub-navi-link"><div>当店セット</div></a></td>
 						</tr>
 						<tr>

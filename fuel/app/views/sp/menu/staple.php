@@ -10,7 +10,7 @@
 	<?php echo Asset::css('sp/download/colorbox.css'); ?>
 	<?php echo Asset::css('sp/common.css'); ?>
 	<?php echo Asset::css('sp/menu.css'); ?>
-	<?php echo Asset::css('sp/menu/noodle-rice.css'); ?>
+	<?php echo Asset::css('sp/menu/staple.css'); ?>
 	<?php echo Asset::css('sp/colorbox-expand.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<?php echo Asset::js('sp/download/jquery.colorbox.js'); ?>
@@ -21,7 +21,7 @@
 <body class="body-common">
 	<?php echo $header; ?>
 
-	<div class="main-image"><?php echo Asset::img('menu/banner/banner-tantanmen.jpg');?></div>
+	<div class="main-image"><?php echo Asset::img('menu/banner-staple.jpg');?></div>
 
 	<div class="parting-line"></div>
 
@@ -29,7 +29,7 @@
 		<div class="main-article-title">麺類</div>
 		<div class="main-article-subtitle">タンタンメン</div>
 		<div>
-			<ul class="list-noodle_rice">
+			<ul class="list-staple">
 				<?php foreach ($tantanmen_list as $tantanmen) : ?>
 				<li>
 					<div class="product-area">
@@ -93,7 +93,7 @@
 	<div class="main-article">
 		<div class="main-article-subtitle">その他の麺類</div>
 		<div>
-			<ul class="list-noodle_rice">
+			<ul class="list-staple">
 				<?php foreach ($noodle_list as $noodle) : ?>
 				<li>
 					<div class="product-area">
@@ -169,7 +169,7 @@
 	<div class="main-article">
 		<div class="main-article-title">ご飯類</div>
 		<div>
-			<ul class="list-noodle_rice">
+			<ul class="list-staple">
 				<?php foreach ($rice_list as $rice) : ?>
 				<li>
 					<div class="product-area">
@@ -210,6 +210,60 @@
 							<div class="div-caution">(<?php echo $rice->caution; ?>)</div>
 							<?php endif; ?>
 							<div class="div-price"><span class="price"><?php echo $rice->price; ?></span>円</div>
+						</div>
+					</div>
+				</li>
+				<?php endforeach; ?>
+			</ul>
+		</div>
+	</div>
+
+	<div class="parting-line"></div>
+
+	<div class="main-article">
+		<div class="main-article-title">餃子</div>
+		<div>
+			<ul class="list-staple">
+				<?php foreach ($dumpling_list as $dumpling) : ?>
+				<li>
+					<div class="product-area">
+						<div class="div-img">
+							<?php 
+								try {
+									echo Asset::img('upload/menu/thumb/img_p' . $dumpling->id . '.jpg');
+								} catch(Exception $e) {
+									echo Asset::img('system/img_product_nofound.jpg');
+								}
+							?>
+							<?php 
+							if($dumpling->image_list): 
+								$image_list = explode(',', $dumpling->image_list);
+								$image_count = count($image_list);
+							?>
+							<a rel="colorbox-<?php echo $dumpling->id; ?>" href="/assets/img/upload/menu/<?php echo $dumpling->id; ?>/<?php echo $image_list[0]; ?>" title="<?php echo $dumpling->name; ?>写真　1/<?php echo $image_count; ?>">
+								<div class="div-img-more">
+								</div>
+							</a>
+								<?php if($image_count > 1) : ?>
+							<div class="colorbox-hide">
+									<?php for($counter = 1; $counter < $image_count; $counter++) : ?>
+								<a rel="colorbox-<?php echo $dumpling->id; ?>" href="/assets/img/upload/menu/<?php echo $dumpling->id; ?>/<?php echo $image_list[$counter]; ?>" title="<?php echo $dumpling->name; ?>写真　<?php echo ($counter + 1); ?>/<?php echo $image_count; ?>"></a>
+									<?php endfor; ?>
+							</div>
+							<div class="multi-photo-mark">
+								写真<br/>多数
+							</div>
+							<?php 
+								endif;
+							endif; 
+							?>
+						</div>
+						<div class="div-info">
+							<div class="div-title"><?php echo $dumpling->name; ?></div>
+							<?php if($dumpling->caution) : ?>
+							<div class="div-caution">(<?php echo $dumpling->caution; ?>)</div>
+							<?php endif; ?>
+							<div class="div-price"><span class="price"><?php echo $dumpling->price; ?></span>円</div>
 						</div>
 					</div>
 				</li>

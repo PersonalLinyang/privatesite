@@ -3,36 +3,36 @@
  */
 
 /* 麺類・ご飯類 リスト */
-.list-noodle_rice {
+.list-staple {
     list-style-type: none;
     width: 100%;
     overflow: hidden;
     padding: 0px;
 }
-.list-noodle_rice li {
+.list-staple li {
     width: 100%;
     height: 140px;
     float: left;
 }
-.list-noodle_rice li div.product-area {
+.list-staple li div.product-area {
 	position: relative;
 	width: 100%;
 	max-width: 500px;
 	margin: auto;
 }
-.list-noodle_rice li div.div-img {
+.list-staple li div.div-img {
 	position:relative;
     float: left;
     width: 120px;
 }
-.list-noodle_rice li div.div-img img {
+.list-staple li div.div-img img {
     border-radius: 55px;
     margin: auto;
     border-style: inset;
     border-width: 5px;
     border-color: #FFFF00;
 }
-.list-noodle_rice li div.div-img a {
+.list-staple li div.div-img a {
 	position:absolute;
 	top: 5px;
 	left: 5px;
@@ -41,7 +41,7 @@
     height:100px;
     outline: none;
 }
-.list-noodle_rice li div.div-img div.div-img-more {
+.list-staple li div.div-img div.div-img-more {
 	position: absolute;
     margin: auto;
 	z-index: 3;
@@ -56,10 +56,10 @@
 	font-size:12px;
 	display: none;
 }
-.list-noodle_rice li div.div-img div.colorbox-hide {
+.list-staple li div.div-img div.colorbox-hide {
 	display: none;
 }
-.list-noodle_rice li div.div-img div.multi-photo-mark {
+.list-staple li div.div-img div.multi-photo-mark {
 	background-color: red;
 	color: #FFFFFF;
 	font-size: 12px;
@@ -75,7 +75,7 @@
 	border-color: #FFFFFF;
 	border-width: 1px;
 }
-.list-noodle_rice li div.div-info {
+.list-staple li div.div-info {
 	position: absolute;
     float: left;
     vertical-align: middle;
@@ -83,14 +83,14 @@
     left: 130px;
     right: 0px;
 }
-.list-noodle_rice li div.div-info div.div-title {
+.list-staple li div.div-info div.div-title {
     font-weight: bold;
 }
-.list-noodle_rice li div.div-info div.div-caution {
+.list-staple li div.div-info div.div-caution {
 	font-size: 12px;
 	line-height: 14px;
 }
-.list-noodle_rice li div.div-info div.div-price {
+.list-staple li div.div-info div.div-price {
     text-align: right;
 }
 

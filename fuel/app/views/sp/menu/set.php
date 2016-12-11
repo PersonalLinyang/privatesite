@@ -21,7 +21,7 @@
 <body class="body-common">
 	<?php echo $header; ?>
 
-	<div class="main-image"><?php echo Asset::img('menu/banner/banner-set.jpg');?></div>
+	<div class="main-image"><?php echo Asset::img('menu/banner-set.jpg');?></div>
 
 	<?php foreach($set_list as $set_group) : ?>
 	<div class="parting-line"></div>
