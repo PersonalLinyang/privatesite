@@ -1,0 +1,130 @@
+/* 
+ * 当店セット専用
+ */
+
+/* 当店セット リスト */
+.list-set {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    padding: 0px;
+}
+.list-set li {
+    width: 100%;
+    height: 140px;
+}
+.list-set li div.product-area {
+	position: relative;
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+}
+.list-set li div.div-main-img {
+    position: relative;
+    float: left;
+    width: 180px;
+}
+.list-set li div.div-main-img img {
+    border-radius: 55px;
+    margin: auto;
+    border-style: inset;
+    border-width: 5px;
+    border-color: #FFFF00;
+}
+.list-set li div.div-main-img a {
+	position:absolute;
+	top: 5px;
+	left: 5px;
+	border-radius: 55px;
+    width:100px;
+    height:100px;
+    outline: none;
+}
+.list-set li div.div-main-img div.div-img-more {
+	position: absolute;
+	z-index: 3;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100px;
+	height: 100px;
+	border-radius: 55px;
+	top: 0px;
+	left: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size:12px;
+	display: none;
+}
+.list-set li div.div-main-img div.colorbox-hide {
+	display: none;
+}
+.list-set li div.div-main-img div.multi-photo-mark {
+	background-color: red;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 12px;
+	position: absolute;
+	z-index: 4;
+	top: 0px;
+	left: 0px;
+	padding: 6px;
+	border-radius: 21px;
+	transform: rotate(-15deg);
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+}
+.list-set li div.div-main-img div.div-sub-img {
+    width: 100px;
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+    right: 0px;
+}
+.list-set li div.div-main-img div.div-sub-img img {
+    width: 60px;
+    border-radius: 33px;
+    border-style: inset;
+    border-width: 3px;
+    border-color: #FFFF00;
+}
+.list-set li div.div-main-img div.div-sub-img a {
+	position:absolute;
+	top: 3px;
+	left: 3px;
+	border-radius: 33px;
+    width:60px;
+    height:60px;
+    outline: none;
+    cursor: pointer;
+    user-select:none;
+}
+.list-set li div.div-main-img div.div-sub-img div.div-img-more {
+	position: absolute;
+	z-index: 3;
+	background: rgba(0, 0, 0, 0.5);
+	width: 60px;
+	height: 60px;
+	border-radius: 33px;
+	top: 0px;
+	left: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size:12px;
+	display: none;
+}
+.list-set li div.div-main-img div.div-sub-img div.colorbox-hide {
+	display: none;
+}
+.list-set li div.div-info {
+	position: absolute;
+    float: left;
+    padding-top: 10px;
+    left: 130px;
+    right: 0px;
+}
+.list-set li div.div-info div.div-title {
+    font-weight: bold;
+}
+.list-set li div.div-info div.div-price {
+    text-align: right;
+}
