@@ -1,3 +1,8 @@
+/* iPhoneスクリーンが横になるとき文字サイズ変化対応 */
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
 /* 共通bodyタグ */
 .body-common {
 	font-family: "メイリオ";
