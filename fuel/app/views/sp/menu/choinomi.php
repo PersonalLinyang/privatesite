@@ -13,8 +13,10 @@
 	<?php echo Asset::css('sp/menu/choinomi.css'); ?>
 	<?php echo Asset::css('sp/colorbox-expand.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<?php echo Asset::js('sp/download/jquery.colorbox.js'); ?>
 	<?php echo Asset::js('sp/google-analytics.js'); ?>
 	<?php echo Asset::js('sp/common.js'); ?>
+	<?php echo Asset::js('sp/menu.js'); ?>
 </head>
 <body class="body-common">
 	<?php echo $header; ?>
@@ -76,8 +78,6 @@
 						?>
 						<a rel="colorbox-<?php echo $dishes->id; ?>" href="/assets/img/upload/menu/<?php echo $dishes->id; ?>/<?php echo $image_list[0]; ?>" title="<?php echo $dishes->name; ?>写真　1/<?php echo $image_count; ?>">
 							<div class="div-img-more">
-								<div class="icon"><?php echo Asset::img('system/icon-colorbox.png'); ?></div>
-								<div class="text">もっと見る</div>
 							</div>
 						</a>
 							<?php if($image_count > 1) : ?>
