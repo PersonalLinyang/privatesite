@@ -16,7 +16,7 @@
 	<div class="body-area">
 		<div class="main-area">
 			<div class="main-image">
-				<a href="/menu/noodle_rice/">
+				<a href="/menu/staple/">
 					<?php echo Asset::img('menu/banner/banner-tantanmen.jpg');?>
 				</a>
 			</div>

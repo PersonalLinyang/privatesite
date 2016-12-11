@@ -8,7 +8,7 @@
 					<a href="/menu/" class="main-navi-link">メニュー</a>
 					<div class="header-sub-navi">
 						<ul>
-							<li><a href="/menu/noodle_rice/" class="sub-navi-link">麺類・ご飯類</a></li>
+							<li><a href="/menu/staple/" class="sub-navi-link">主食</a></li>
 							<li><a href="/menu/set/" class="sub-navi-link">当店セット</a></li>
 							<li><a href="/menu/single_set/" class="sub-navi-link">単品・定食</a></li>
 							<li><a href="/menu/choinomi/" class="sub-navi-link">ちょい飲み</a></li>

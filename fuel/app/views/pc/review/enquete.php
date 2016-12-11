@@ -109,6 +109,25 @@
 								</div>
 								<div>
 									<label class="lbl_openbutton">ー</label>
+									<span class="type">餃子</span>
+									<div class="open_area">
+										<ul class="list_col2">
+											<?php foreach($dumpling_list as $dumpling) : ?>
+											<li <?php echo strlen($dumpling->name)>18 ? 'class="long"' : ''; ?>>
+												<?php if(in_array('nr' . $dumpling->id, $post_data['order_list'])) : ?>
+												<input id="chk_order_nr<?php echo $dumpling->id; ?>" type="checkbox" name="order_list[]" value="nr<?php echo $dumpling->id; ?>" checked>
+												<label for="chk_order_nr<?php echo $dumpling->id; ?>" class="lbl_checkbox active"><?php echo $dumpling->name; ?></label>
+												<?php else : ?>
+												<input id="chk_order_nr<?php echo $dumpling->id; ?>" type="checkbox" name="order_list[]" value="nr<?php echo $dumpling->id; ?>">
+												<label for="chk_order_nr<?php echo $dumpling->id; ?>" class="lbl_checkbox"><?php echo $dumpling->name; ?></label>
+												<?php endif; ?>
+											</li>
+											<?php endforeach; ?>	
+										</ul>
+									</div>
+								</div>
+								<div>
+									<label class="lbl_openbutton">ー</label>
 									<span class="type">セット</span>
 									<div class="open_area">
 										<ul class="set_list">

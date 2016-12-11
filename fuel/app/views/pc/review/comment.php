@@ -38,7 +38,7 @@
 								<table class="table-order">
 									<?php if(count($enquete->order_list['nr_list'])) : ?>
 									<tr>
-										<th>麺類・ご飯類</th>
+										<th>主食</th>
 										<td>
 											<?php echo implode('<br/>', $enquete->order_list['nr_list']); ?>
 										</td>
