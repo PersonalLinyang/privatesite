@@ -7,10 +7,13 @@
 	<meta name="keywords" content="<?php echo $keywords; ?>">
 	<link rel="canonical" href="<?php echo $canonical; ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<?php echo Asset::css('sp/download/colorbox.css'); ?>
 	<?php echo Asset::css('sp/common.css'); ?>
 	<?php echo Asset::css('sp/guide.css'); ?>
+	<?php echo Asset::css('sp/colorbox-expand.css'); ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNec7O3yCFpIdsHK5rOVU4HRqiwikjrwU&callback=initMap&language=ja"></script>
+	<?php echo Asset::js('sp/download/jquery.colorbox.js'); ?>
 	<?php echo Asset::js('sp/google-analytics.js'); ?>
 	<?php echo Asset::js('sp/common.js'); ?>
 	<?php echo Asset::js('sp/guide.js'); ?>
@@ -46,7 +49,13 @@
 			</tr>
 			<tr>
 				<th>営業時間</th>
-				<td>昼：11:30～15:00<br/>夜：17:30～24:00</td>
+				<td>
+					月曜日～土曜日<br/>
+					　昼：11:30～15:00<br/>
+					　夜：17:30～24:00<br/>
+					日曜日<br/>
+					　昼：11:30～20:00<br/>
+				</td>
 			</tr>
 			<tr>
 				<th>定休日</th>
@@ -55,6 +64,17 @@
 			<tr>
 				<th>カード</th>
 				<td>不可</td>
+			</tr>
+			<tr>
+				<th>当店写真</th>
+				<td>
+					<a rel="colorbox-guide" href="/assets/img/guide/outside.jpg" title="当店写真　1/2">
+						<?php echo Asset::img('guide/outside_s.jpg'); ?>
+					</a>
+					<a rel="colorbox-guide" href="/assets/img/guide/inside.jpg" title="当店写真　2/2">
+						<?php echo Asset::img('guide/inside_s.jpg'); ?>
+					</a>
+				</td>
 			</tr>
 		</table>
 		<table class="main-article-table" padding="0">
