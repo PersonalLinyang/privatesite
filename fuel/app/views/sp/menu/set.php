@@ -122,6 +122,7 @@
 						</div>
 						<div class="div-info">
 							<div class="div-title"><?php echo $set['set_name']; ?></div>
+							<div class="caution" style="padding-left: 20px;">(イベント期間中100円引き)</div>
 							<div class="div-price"><span class="price"><?php echo $set['price']; ?></span>円</div>
 						</div>
 					</div>
